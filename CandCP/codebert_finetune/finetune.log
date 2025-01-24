@@ -1,0 +1,170 @@
+model parameters: 172503552
+save dir: ../../models/CandCP-finetuned-model/codebert-base-finetune/0/
+
+start data pre-processing
+시간: 2024-09-29 09:46:23.079529
+time: 1727570783.079529
+long inputs: 13688
+../../data/CVEfixesCandCP.jsonl total size: 35207
+finish data pre-processing
+시간: 2024-09-29 09:46:41.946670
+time: 1727570801.94667
+
+epoch: 1, step: 0/2817, loss: 12.6094, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:46:42.853392
+time: 1727570802.853392
+validation loss: 8.2527
+
+epoch: 1, step: 1000/2817, loss: 0.6025, lr: 3.6e-05, oom: 0, time: 72s
+start validation
+시간: 2024-09-29 09:47:55.233691
+time: 1727570875.233691
+validation loss: 1.2207
+
+epoch: 1, step: 2000/2817, loss: 0.5102, lr: 1e-05, oom: 0, time: 76s
+start validation
+시간: 2024-09-29 09:49:11.235466
+time: 1727570951.235466
+validation loss: 1.1347
+
+start validation
+시간: 2024-09-29 09:50:14.838982
+time: 1727571014.838982
+validation loss: 1.1221
+model parameters: 172503552
+save dir: ../../models/CandCP-finetuned-model/codebert-base-finetune/1/
+
+start data pre-processing
+시간: 2024-09-29 09:50:30.293467
+time: 1727571030.293467
+long inputs: 13688
+../../data/CVEfixesCandCP.jsonl total size: 35207
+finish data pre-processing
+시간: 2024-09-29 09:50:49.332777
+time: 1727571049.332777
+
+epoch: 1, step: 0/2817, loss: 12.3218, lr: 5e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 09:50:50.503017
+time: 1727571050.503017
+validation loss: 7.8617
+
+epoch: 1, step: 1000/2817, loss: 0.8043, lr: 3.6e-05, oom: 0, time: 71s
+start validation
+시간: 2024-09-29 09:52:02.353473
+time: 1727571122.353473
+validation loss: 0.417
+
+epoch: 1, step: 2000/2817, loss: 0.6784, lr: 1e-05, oom: 0, time: 77s
+start validation
+시간: 2024-09-29 09:53:19.374160
+time: 1727571199.37416
+validation loss: 0.4
+
+start validation
+시간: 2024-09-29 09:54:33.294462
+time: 1727571273.294462
+validation loss: 0.392
+model parameters: 172503552
+save dir: ../../models/CandCP-finetuned-model/codebert-base-finetune/2/
+
+start data pre-processing
+시간: 2024-09-29 09:54:48.833680
+time: 1727571288.83368
+long inputs: 13688
+../../data/CVEfixesCandCP.jsonl total size: 35207
+finish data pre-processing
+시간: 2024-09-29 09:55:07.655389
+time: 1727571307.655389
+
+epoch: 1, step: 0/2817, loss: 12.108, lr: 5e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 09:55:08.812093
+time: 1727571308.812093
+validation loss: 7.2196
+
+epoch: 1, step: 1000/2817, loss: 0.7744, lr: 3.6e-05, oom: 0, time: 72s
+start validation
+시간: 2024-09-29 09:56:21.728903
+time: 1727571381.728903
+validation loss: 0.5508
+
+epoch: 1, step: 2000/2817, loss: 0.6451, lr: 1e-05, oom: 0, time: 76s
+start validation
+시간: 2024-09-29 09:57:38.377618
+time: 1727571458.377618
+validation loss: 0.5055
+
+start validation
+시간: 2024-09-29 09:58:43.841022
+time: 1727571523.841022
+validation loss: 0.4927
+model parameters: 172503552
+save dir: ../../models/CandCP-finetuned-model/codebert-base-finetune/3/
+
+start data pre-processing
+시간: 2024-09-29 09:58:58.816208
+time: 1727571538.816208
+long inputs: 13688
+../../data/CVEfixesCandCP.jsonl total size: 35207
+finish data pre-processing
+시간: 2024-09-29 09:59:17.701503
+time: 1727571557.701503
+
+epoch: 1, step: 0/2817, loss: 12.4094, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:59:18.436194
+time: 1727571558.436194
+validation loss: 7.7148
+
+epoch: 1, step: 1000/2817, loss: 0.8089, lr: 3.6e-05, oom: 0, time: 71s
+start validation
+시간: 2024-09-29 10:00:29.984962
+time: 1727571629.984962
+validation loss: 0.3211
+
+epoch: 1, step: 2000/2817, loss: 0.6794, lr: 1e-05, oom: 0, time: 76s
+start validation
+시간: 2024-09-29 10:01:46.565321
+time: 1727571706.565321
+validation loss: 0.305
+
+start validation
+시간: 2024-09-29 10:02:51.200444
+time: 1727571771.200444
+validation loss: 0.2946
+model parameters: 172503552
+save dir: ../../models/CandCP-finetuned-model/codebert-base-finetune/4/
+
+start data pre-processing
+시간: 2024-09-29 10:03:07.693169
+time: 1727571787.693169
+long inputs: 13688
+../../data/CVEfixesCandCP.jsonl total size: 35207
+finish data pre-processing
+시간: 2024-09-29 10:03:26.627964
+time: 1727571806.627964
+
+epoch: 1, step: 0/2817, loss: 11.7427, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 10:03:27.465529
+time: 1727571807.465529
+validation loss: 7.5364
+
+epoch: 1, step: 1000/2817, loss: 0.7274, lr: 3.6e-05, oom: 0, time: 72s
+start validation
+시간: 2024-09-29 10:04:39.906127
+time: 1727571879.906127
+validation loss: 0.9767
+
+epoch: 1, step: 2000/2817, loss: 0.5935, lr: 1e-05, oom: 0, time: 77s
+start validation
+시간: 2024-09-29 10:05:57.081194
+time: 1727571957.081194
+validation loss: 0.9202
+
+start validation
+시간: 2024-09-29 10:07:02.511325
+time: 1727572022.511325
+validation loss: 0.8848

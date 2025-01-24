@@ -1,0 +1,230 @@
+model parameters: 356712448
+save dir: ../../models/CandCP-finetuned-model/codegen-350M-finetune/0/
+
+start data pre-processing
+시간: 2024-09-29 09:52:03.013072
+time: 1727571123.013072
+long inputs: 100
+../../data/CVEfixesCandCP.jsonl total size: 23586
+finish data pre-processing
+시간: 2024-09-29 09:52:16.825105
+time: 1727571136.825105
+
+epoch: 1, step: 0/4718, loss: 1.1259, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:52:17.811335
+time: 1727571137.811335
+validation loss: 2.1328
+
+epoch: 1, step: 1000/4718, loss: 0.2476, lr: 8.9e-06, oom: 0, time: 239s
+start validation
+시간: 2024-09-29 09:56:17.391387
+time: 1727571377.391387
+validation loss: 0.2576
+
+epoch: 1, step: 2000/4718, loss: 0.2139, lr: 6.2e-06, oom: 0, time: 258s
+start validation
+시간: 2024-09-29 10:00:35.620786
+time: 1727571635.620786
+validation loss: 0.2437
+
+epoch: 1, step: 3000/4718, loss: 0.1985, lr: 2.9e-06, oom: 0, time: 254s
+start validation
+시간: 2024-09-29 10:04:49.631568
+time: 1727571889.631568
+validation loss: 0.2332
+
+epoch: 1, step: 4000/4718, loss: 0.1854, lr: 6e-07, oom: 0, time: 248s
+start validation
+시간: 2024-09-29 10:08:58.394734
+time: 1727572138.394734
+validation loss: 0.2353
+
+start validation
+시간: 2024-09-29 10:12:00.449104
+time: 1727572320.449104
+validation loss: 0.2313
+model parameters: 356712448
+save dir: ../../models/CandCP-finetuned-model/codegen-350M-finetune/1/
+
+start data pre-processing
+시간: 2024-09-29 10:12:53.039815
+time: 1727572373.039815
+long inputs: 100
+../../data/CVEfixesCandCP.jsonl total size: 23586
+finish data pre-processing
+시간: 2024-09-29 10:13:06.934361
+time: 1727572386.934361
+
+epoch: 1, step: 0/4718, loss: 6.5808, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 10:13:07.922292
+time: 1727572387.922292
+validation loss: 1.5489
+
+epoch: 1, step: 1000/4718, loss: 0.2728, lr: 8.9e-06, oom: 0, time: 247s
+start validation
+시간: 2024-09-29 10:17:15.331323
+time: 1727572635.331323
+validation loss: 0.1799
+
+epoch: 1, step: 2000/4718, loss: 0.2317, lr: 6.2e-06, oom: 0, time: 259s
+start validation
+시간: 2024-09-29 10:21:34.654421
+time: 1727572894.654421
+validation loss: 0.1663
+
+epoch: 1, step: 3000/4718, loss: 0.2111, lr: 2.9e-06, oom: 0, time: 260s
+start validation
+시간: 2024-09-29 10:25:55.078774
+time: 1727573155.078774
+validation loss: 0.1605
+
+epoch: 1, step: 4000/4718, loss: 0.1957, lr: 6e-07, oom: 0, time: 255s
+start validation
+시간: 2024-09-29 10:30:10.135994
+time: 1727573410.135994
+validation loss: 0.1678
+
+start validation
+시간: 2024-09-29 10:33:19.650942
+time: 1727573599.650942
+validation loss: 0.1615
+model parameters: 356712448
+save dir: ../../models/CandCP-finetuned-model/codegen-350M-finetune/2/
+
+start data pre-processing
+시간: 2024-09-29 10:34:04.400663
+time: 1727573644.400663
+long inputs: 100
+../../data/CVEfixesCandCP.jsonl total size: 23586
+finish data pre-processing
+시간: 2024-09-29 10:34:18.197927
+time: 1727573658.197927
+
+epoch: 1, step: 0/4718, loss: 1.1994, lr: 1e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 10:34:19.274578
+time: 1727573659.274578
+validation loss: 2.3229
+
+epoch: 1, step: 1000/4718, loss: 0.2584, lr: 8.9e-06, oom: 0, time: 245s
+start validation
+시간: 2024-09-29 10:38:25.003769
+time: 1727573905.003769
+validation loss: 0.1501
+
+epoch: 1, step: 2000/4718, loss: 0.2139, lr: 6.2e-06, oom: 0, time: 253s
+start validation
+시간: 2024-09-29 10:42:38.579607
+time: 1727574158.579607
+validation loss: 0.1461
+
+epoch: 1, step: 3000/4718, loss: 0.1973, lr: 2.9e-06, oom: 0, time: 255s
+start validation
+시간: 2024-09-29 10:46:54.381450
+time: 1727574414.38145
+validation loss: 0.1373
+
+epoch: 1, step: 4000/4718, loss: 0.1832, lr: 6e-07, oom: 0, time: 257s
+start validation
+시간: 2024-09-29 10:51:11.986686
+time: 1727574671.986686
+validation loss: 0.1423
+
+start validation
+시간: 2024-09-29 10:54:15.296306
+time: 1727574855.296306
+validation loss: 0.1444
+model parameters: 356712448
+save dir: ../../models/CandCP-finetuned-model/codegen-350M-finetune/3/
+
+start data pre-processing
+시간: 2024-09-29 10:55:00.170584
+time: 1727574900.170584
+long inputs: 100
+../../data/CVEfixesCandCP.jsonl total size: 23586
+finish data pre-processing
+시간: 2024-09-29 10:55:14.034266
+time: 1727574914.034266
+
+epoch: 1, step: 0/4718, loss: 1.4681, lr: 1e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 10:55:15.126829
+time: 1727574915.126829
+validation loss: 4.0526
+
+epoch: 1, step: 1000/4718, loss: 0.2549, lr: 8.9e-06, oom: 0, time: 237s
+start validation
+시간: 2024-09-29 10:59:12.128671
+time: 1727575152.128671
+validation loss: 0.244
+
+epoch: 1, step: 2000/4718, loss: 0.2132, lr: 6.2e-06, oom: 0, time: 249s
+start validation
+시간: 2024-09-29 11:03:21.348784
+time: 1727575401.348784
+validation loss: 0.2584
+
+epoch: 1, step: 3000/4718, loss: 0.1945, lr: 2.9e-06, oom: 0, time: 236s
+start validation
+시간: 2024-09-29 11:07:17.599525
+time: 1727575637.599525
+validation loss: 0.2465
+
+epoch: 1, step: 4000/4718, loss: 0.1812, lr: 6e-07, oom: 0, time: 235s
+start validation
+시간: 2024-09-29 11:11:13.496859
+time: 1727575873.496859
+validation loss: 0.2556
+
+start validation
+시간: 2024-09-29 11:14:17.393538
+time: 1727576057.393538
+validation loss: 0.2475
+model parameters: 356712448
+save dir: ../../models/CandCP-finetuned-model/codegen-350M-finetune/4/
+
+start data pre-processing
+시간: 2024-09-29 11:15:02.422914
+time: 1727576102.422914
+long inputs: 100
+../../data/CVEfixesCandCP.jsonl total size: 23586
+finish data pre-processing
+시간: 2024-09-29 11:15:16.367593
+time: 1727576116.367593
+
+epoch: 1, step: 0/4717, loss: 1.6183, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 11:15:17.179568
+time: 1727576117.179568
+validation loss: 1.2804
+
+epoch: 1, step: 1000/4717, loss: 0.2261, lr: 8.9e-06, oom: 0, time: 239s
+start validation
+시간: 2024-09-29 11:19:16.871392
+time: 1727576356.871392
+validation loss: 0.4856
+
+epoch: 1, step: 2000/4717, loss: 0.1919, lr: 6.2e-06, oom: 0, time: 256s
+start validation
+시간: 2024-09-29 11:23:33.007924
+time: 1727576613.007924
+validation loss: 0.4793
+
+epoch: 1, step: 3000/4717, loss: 0.1728, lr: 2.9e-06, oom: 0, time: 250s
+start validation
+시간: 2024-09-29 11:27:43.259945
+time: 1727576863.259945
+validation loss: 0.4803
+
+epoch: 1, step: 4000/4717, loss: 0.1602, lr: 6e-07, oom: 0, time: 236s
+start validation
+시간: 2024-09-29 11:31:39.686214
+time: 1727577099.686214
+validation loss: 0.4863
+
+start validation
+시간: 2024-09-29 11:34:41.530383
+time: 1727577281.530383
+validation loss: 0.4891

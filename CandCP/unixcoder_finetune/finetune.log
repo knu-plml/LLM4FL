@@ -1,0 +1,140 @@
+model parameters: 126520320
+save dir: ../../models/CandCP-finetuned-model/unixcoder-base-finetune/0/
+
+start data pre-processing
+시간: 2024-09-28 21:00:22.879450
+time: 1727524822.87945
+long inputs: 7166
+../../data/CVEfixesCandCP.jsonl total size: 16520
+finish data pre-processing
+시간: 2024-09-28 21:00:39.393684
+time: 1727524839.393684
+
+epoch: 1, step: 0/1322, loss: 6.4599, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 21:00:40.166305
+time: 1727524840.166305
+validation loss: 8.0686
+
+epoch: 1, step: 1000/1322, loss: 0.1042, lr: 7e-06, oom: 0, time: 110s
+start validation
+시간: 2024-09-28 21:02:30.926158
+time: 1727524950.926158
+validation loss: 0.1095
+
+start validation
+시간: 2024-09-28 21:03:19.855118
+time: 1727524999.855118
+validation loss: 0.0954
+model parameters: 126520320
+save dir: ../../models/CandCP-finetuned-model/unixcoder-base-finetune/1/
+
+start data pre-processing
+시간: 2024-09-28 21:03:36.303294
+time: 1727525016.303294
+long inputs: 7166
+../../data/CVEfixesCandCP.jsonl total size: 16520
+finish data pre-processing
+시간: 2024-09-28 21:03:52.595897
+time: 1727525032.595897
+
+epoch: 1, step: 0/1322, loss: 8.8686, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 21:03:53.355306
+time: 1727525033.355306
+validation loss: 5.2559
+
+epoch: 1, step: 1000/1322, loss: 0.1227, lr: 7e-06, oom: 0, time: 112s
+start validation
+시간: 2024-09-28 21:05:45.530566
+time: 1727525145.530566
+validation loss: 0.0462
+
+start validation
+시간: 2024-09-28 21:06:29.207951
+time: 1727525189.207951
+validation loss: 0.0482
+model parameters: 126520320
+save dir: ../../models/CandCP-finetuned-model/unixcoder-base-finetune/2/
+
+start data pre-processing
+시간: 2024-09-28 21:06:37.698679
+time: 1727525197.698679
+long inputs: 7166
+../../data/CVEfixesCandCP.jsonl total size: 16520
+finish data pre-processing
+시간: 2024-09-28 21:06:53.784889
+time: 1727525213.784889
+
+epoch: 1, step: 0/1322, loss: 10.4089, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 21:06:54.763682
+time: 1727525214.763682
+validation loss: 5.8807
+
+epoch: 1, step: 1000/1322, loss: 0.1194, lr: 7e-06, oom: 0, time: 110s
+start validation
+시간: 2024-09-28 21:08:45.194361
+time: 1727525325.194361
+validation loss: 0.0587
+
+start validation
+시간: 2024-09-28 21:09:28.740940
+time: 1727525368.74094
+validation loss: 0.0589
+model parameters: 126520320
+save dir: ../../models/CandCP-finetuned-model/unixcoder-base-finetune/3/
+
+start data pre-processing
+시간: 2024-09-28 21:09:37.309403
+time: 1727525377.309403
+long inputs: 7166
+../../data/CVEfixesCandCP.jsonl total size: 16520
+finish data pre-processing
+시간: 2024-09-28 21:09:53.552915
+time: 1727525393.552915
+
+epoch: 1, step: 0/1322, loss: 10.5309, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 21:09:54.516785
+time: 1727525394.516785
+validation loss: 5.3189
+
+epoch: 1, step: 1000/1322, loss: 0.1175, lr: 7e-06, oom: 0, time: 105s
+start validation
+시간: 2024-09-28 21:11:40.323801
+time: 1727525500.323801
+validation loss: 0.0247
+
+start validation
+시간: 2024-09-28 21:12:22.774455
+time: 1727525542.774455
+validation loss: 0.0238
+model parameters: 126520320
+save dir: ../../models/CandCP-finetuned-model/unixcoder-base-finetune/4/
+
+start data pre-processing
+시간: 2024-09-28 21:12:44.648249
+time: 1727525564.648249
+long inputs: 7166
+../../data/CVEfixesCandCP.jsonl total size: 16520
+finish data pre-processing
+시간: 2024-09-28 21:13:01.002144
+time: 1727525581.002144
+
+epoch: 1, step: 0/1322, loss: 6.5957, lr: 5e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 21:13:01.867063
+time: 1727525581.867063
+validation loss: 7.6965
+
+epoch: 1, step: 1000/1322, loss: 0.1136, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-28 21:15:04.468275
+time: 1727525704.468275
+validation loss: 0.0718
+
+start validation
+시간: 2024-09-28 21:15:48.145141
+time: 1727525748.145141
+validation loss: 0.0732

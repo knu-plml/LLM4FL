@@ -1,0 +1,535 @@
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.dense.bias', 'lm_head.decoder.bias', 'lm_head.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Java-finetuned-model/graphcodebert-base-finetune/0/
+
+start data pre-processing
+시간: 2024-09-28 11:57:55.083599
+time: 1727492275.083599
+finish loading: 10000 data size: 54949
+finish loading: 20000 data size: 112851
+finish loading: 30000 data size: 168102
+finish loading: 40000 data size: 223527
+finish loading: 50000 data size: 278697
+long inputs: 0
+../../data/finetune_training.jsonl total size: 278697
+finish loading: 10000 data size: 55511
+long inputs: 0
+../../data/finetune_validation.jsonl total size: 80317
+finish data pre-processing
+시간: 2024-09-28 12:04:19.175457
+time: 1727492659.175457
+
+epoch: 1, step: 0/13935, loss: 12.1747, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-28 12:04:20.843517
+time: 1727492660.843517
+validation loss: 6.7234
+
+epoch: 1, step: 1000/13935, loss: 1.8539, lr: 9.9e-05, oom: 0, time: 600s
+start validation
+시간: 2024-09-28 12:14:21.813380
+time: 1727493261.81338
+validation loss: 1.5228
+
+epoch: 1, step: 2000/13935, loss: 1.7109, lr: 9.5e-05, oom: 0, time: 601s
+start validation
+시간: 2024-09-28 12:24:23.177086
+time: 1727493863.177086
+validation loss: 1.5465
+
+epoch: 1, step: 3000/13935, loss: 1.6357, lr: 8.9e-05, oom: 0, time: 592s
+start validation
+시간: 2024-09-28 12:34:15.342852
+time: 1727494455.342852
+validation loss: 1.4728
+
+epoch: 1, step: 4000/13935, loss: 1.582, lr: 8.1e-05, oom: 0, time: 601s
+start validation
+시간: 2024-09-28 12:44:17.106079
+time: 1727495057.106079
+validation loss: 1.4382
+
+epoch: 1, step: 5000/13935, loss: 1.5399, lr: 7.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 12:54:19.399415
+time: 1727495659.399415
+validation loss: 1.3879
+
+epoch: 1, step: 6000/13935, loss: 1.5066, lr: 6.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 13:04:21.492349
+time: 1727496261.492349
+validation loss: 1.367
+
+epoch: 1, step: 7000/13935, loss: 1.4778, lr: 5e-05, oom: 0, time: 601s
+start validation
+시간: 2024-09-28 13:14:22.540706
+time: 1727496862.540706
+validation loss: 1.3415
+
+epoch: 1, step: 8000/13935, loss: 1.4551, lr: 3.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 13:24:24.697316
+time: 1727497464.697316
+validation loss: 1.315
+
+epoch: 1, step: 9000/13935, loss: 1.4319, lr: 2.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 13:34:26.732576
+time: 1727498066.732576
+validation loss: 1.2995
+
+epoch: 1, step: 10000/13935, loss: 1.4133, lr: 1.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 13:44:28.874623
+time: 1727498668.874623
+validation loss: 1.2895
+
+epoch: 1, step: 11000/13935, loss: 1.3953, lr: 1.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 13:54:31.650855
+time: 1727499271.650855
+validation loss: 1.271
+
+epoch: 1, step: 12000/13935, loss: 1.38, lr: 5e-06, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 14:04:33.709960
+time: 1727499873.70996
+validation loss: 1.2619
+
+epoch: 1, step: 13000/13935, loss: 1.3664, lr: 1e-06, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 14:14:35.838630
+time: 1727500475.83863
+validation loss: 1.2607
+
+start validation
+시간: 2024-09-28 14:24:20.481306
+time: 1727501060.481306
+validation loss: 1.2613
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.bias', 'lm_head.decoder.bias', 'lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Java-finetuned-model/graphcodebert-base-finetune/1/
+
+start data pre-processing
+시간: 2024-09-28 14:30:13.659708
+time: 1727501413.659708
+finish loading: 10000 data size: 54949
+finish loading: 20000 data size: 112851
+finish loading: 30000 data size: 168102
+finish loading: 40000 data size: 223527
+finish loading: 50000 data size: 278697
+long inputs: 0
+../../data/finetune_training.jsonl total size: 278697
+finish loading: 10000 data size: 55511
+long inputs: 0
+../../data/finetune_validation.jsonl total size: 80317
+finish data pre-processing
+시간: 2024-09-28 14:36:37.024674
+time: 1727501797.024674
+
+epoch: 1, step: 0/13935, loss: 12.0307, lr: 0.0001, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 14:36:37.968483
+time: 1727501797.968483
+validation loss: 6.6834
+
+epoch: 1, step: 1000/13935, loss: 1.8478, lr: 9.9e-05, oom: 0, time: 593s
+start validation
+시간: 2024-09-28 14:46:31.406284
+time: 1727502391.406284
+validation loss: 1.5321
+
+epoch: 1, step: 2000/13935, loss: 1.619, lr: 9.5e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 14:56:34.171642
+time: 1727502994.171642
+validation loss: 1.1562
+
+epoch: 1, step: 3000/13935, loss: 1.4335, lr: 8.9e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 15:06:36.419684
+time: 1727503596.419684
+validation loss: 0.9055
+
+epoch: 1, step: 4000/13935, loss: 1.2952, lr: 8.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 15:16:39.163714
+time: 1727504199.163714
+validation loss: 0.7833
+
+epoch: 1, step: 5000/13935, loss: 1.1908, lr: 7.1e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 15:26:42.401966
+time: 1727504802.401966
+validation loss: 0.7324
+
+epoch: 1, step: 6000/13935, loss: 1.1148, lr: 6.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 15:36:44.857392
+time: 1727505404.857392
+validation loss: 0.6865
+
+epoch: 1, step: 7000/13935, loss: 1.0544, lr: 5e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 15:46:47.320236
+time: 1727506007.320236
+validation loss: 0.6684
+
+epoch: 1, step: 8000/13935, loss: 1.0046, lr: 3.8e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 15:56:50.966151
+time: 1727506610.966151
+validation loss: 0.6398
+
+epoch: 1, step: 9000/13935, loss: 0.9648, lr: 2.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 16:06:53.422714
+time: 1727507213.422714
+validation loss: 0.6234
+
+epoch: 1, step: 10000/13935, loss: 0.9304, lr: 1.8e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 16:16:56.735088
+time: 1727507816.735088
+validation loss: 0.6093
+
+epoch: 1, step: 11000/13935, loss: 0.9022, lr: 1.1e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 16:27:00.236311
+time: 1727508420.236311
+validation loss: 0.6023
+
+epoch: 1, step: 12000/13935, loss: 0.8764, lr: 5e-06, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 16:37:03.516166
+time: 1727509023.516166
+validation loss: 0.5954
+
+epoch: 1, step: 13000/13935, loss: 0.8548, lr: 1e-06, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 16:47:06.775433
+time: 1727509626.775433
+validation loss: 0.5924
+
+start validation
+시간: 2024-09-28 16:56:53.425223
+time: 1727510213.425223
+validation loss: 0.5922
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.decoder.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Java-finetuned-model/graphcodebert-base-finetune/2/
+
+start data pre-processing
+시간: 2024-09-28 17:02:46.257870
+time: 1727510566.25787
+finish loading: 10000 data size: 54949
+finish loading: 20000 data size: 112851
+finish loading: 30000 data size: 168102
+finish loading: 40000 data size: 223527
+finish loading: 50000 data size: 278697
+long inputs: 0
+../../data/finetune_training.jsonl total size: 278697
+finish loading: 10000 data size: 55511
+long inputs: 0
+../../data/finetune_validation.jsonl total size: 80317
+finish data pre-processing
+시간: 2024-09-28 17:09:19.591484
+time: 1727510959.591484
+
+epoch: 1, step: 0/13935, loss: 12.0741, lr: 0.0001, oom: 0, time: 0s
+start validation
+시간: 2024-09-28 17:09:20.531257
+time: 1727510960.531257
+validation loss: 6.675
+
+epoch: 1, step: 1000/13935, loss: 1.8349, lr: 9.9e-05, oom: 0, time: 594s
+start validation
+시간: 2024-09-28 17:19:14.918093
+time: 1727511554.918093
+validation loss: 1.5328
+
+epoch: 1, step: 2000/13935, loss: 1.626, lr: 9.5e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 17:29:18.246204
+time: 1727512158.246204
+validation loss: 1.2259
+
+epoch: 1, step: 3000/13935, loss: 1.4476, lr: 8.9e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 17:39:21.393946
+time: 1727512761.393946
+validation loss: 0.9286
+
+epoch: 1, step: 4000/13935, loss: 1.3185, lr: 8.1e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 17:49:24.605802
+time: 1727513364.605802
+validation loss: 1.4911
+
+epoch: 1, step: 5000/13935, loss: 1.3446, lr: 7.1e-05, oom: 0, time: 592s
+start validation
+시간: 2024-09-28 17:59:17.232269
+time: 1727513957.232269
+validation loss: 1.4391
+
+epoch: 1, step: 6000/13935, loss: 1.3478, lr: 6.1e-05, oom: 0, time: 592s
+start validation
+시간: 2024-09-28 18:09:10.145809
+time: 1727514550.145809
+validation loss: 1.4072
+
+epoch: 1, step: 7000/13935, loss: 1.3441, lr: 5e-05, oom: 0, time: 593s
+start validation
+시간: 2024-09-28 18:19:03.217808
+time: 1727515143.217808
+validation loss: 1.3749
+
+epoch: 1, step: 8000/13935, loss: 1.3378, lr: 3.8e-05, oom: 0, time: 592s
+start validation
+시간: 2024-09-28 18:28:55.282999
+time: 1727515735.282999
+validation loss: 1.341
+
+start validation
+시간: 2024-09-28 18:34:26.954872
+time: 1727516066.954872
+validation loss: 1.3403
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.decoder.bias', 'lm_head.decoder.weight', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Java-finetuned-model/graphcodebert-base-finetune/3/
+
+start data pre-processing
+시간: 2024-09-28 18:40:10.552502
+time: 1727516410.552502
+finish loading: 10000 data size: 54949
+finish loading: 20000 data size: 112851
+finish loading: 30000 data size: 168102
+finish loading: 40000 data size: 223527
+finish loading: 50000 data size: 278697
+long inputs: 0
+../../data/finetune_training.jsonl total size: 278697
+finish loading: 10000 data size: 55511
+long inputs: 0
+../../data/finetune_validation.jsonl total size: 80317
+finish data pre-processing
+시간: 2024-09-28 18:46:36.763582
+time: 1727516796.763582
+
+epoch: 1, step: 0/13935, loss: 11.6228, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-28 18:46:37.963997
+time: 1727516797.963997
+validation loss: 6.4035
+
+epoch: 1, step: 1000/13935, loss: 1.8778, lr: 9.9e-05, oom: 0, time: 593s
+start validation
+시간: 2024-09-28 18:56:31.830154
+time: 1727517391.830154
+validation loss: 1.5367
+
+epoch: 1, step: 2000/13935, loss: 1.6607, lr: 9.5e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 19:06:35.199495
+time: 1727517995.199495
+validation loss: 1.5582
+
+epoch: 1, step: 3000/13935, loss: 1.6107, lr: 8.9e-05, oom: 0, time: 593s
+start validation
+시간: 2024-09-28 19:16:28.467573
+time: 1727518588.467573
+validation loss: 1.4911
+
+epoch: 1, step: 4000/13935, loss: 1.5644, lr: 8.1e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 19:26:31.669744
+time: 1727519191.669744
+validation loss: 1.4453
+
+epoch: 1, step: 5000/13935, loss: 1.5277, lr: 7.1e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 19:36:34.861499
+time: 1727519794.861499
+validation loss: 1.4137
+
+epoch: 1, step: 6000/13935, loss: 1.4981, lr: 6.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 19:46:37.844501
+time: 1727520397.844501
+validation loss: 1.3826
+
+epoch: 1, step: 7000/13935, loss: 1.4704, lr: 5e-05, oom: 0, time: 601s
+start validation
+시간: 2024-09-28 19:56:39.369945
+time: 1727520999.369945
+validation loss: 1.3462
+
+epoch: 1, step: 8000/13935, loss: 1.4454, lr: 3.8e-05, oom: 0, time: 601s
+start validation
+시간: 2024-09-28 20:06:41.028226
+time: 1727521601.028226
+validation loss: 1.3331
+
+epoch: 1, step: 9000/13935, loss: 1.424, lr: 2.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 20:16:43.208361
+time: 1727522203.208361
+validation loss: 1.3114
+
+epoch: 1, step: 10000/13935, loss: 1.4047, lr: 1.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 20:26:45.453763
+time: 1727522805.453763
+validation loss: 1.2993
+
+epoch: 1, step: 11000/13935, loss: 1.3887, lr: 1.1e-05, oom: 0, time: 604s
+start validation
+시간: 2024-09-28 20:36:49.481185
+time: 1727523409.481185
+validation loss: 1.2912
+
+epoch: 1, step: 12000/13935, loss: 1.3736, lr: 5e-06, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 20:46:52.194500
+time: 1727524012.1945
+validation loss: 1.2828
+
+epoch: 1, step: 13000/13935, loss: 1.3604, lr: 1e-06, oom: 0, time: 621s
+start validation
+시간: 2024-09-28 20:57:13.875312
+time: 1727524633.875312
+validation loss: 1.28
+
+start validation
+시간: 2024-09-28 21:07:10.392732
+time: 1727525230.392732
+validation loss: 1.2812
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.dense.weight', 'lm_head.layer_norm.weight', 'lm_head.decoder.bias', 'lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.layer_norm.bias', 'lm_head.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Java-finetuned-model/graphcodebert-base-finetune/4/
+
+start data pre-processing
+시간: 2024-09-28 21:13:15.121401
+time: 1727525595.121401
+finish loading: 10000 data size: 54949
+finish loading: 20000 data size: 112851
+finish loading: 30000 data size: 168102
+finish loading: 40000 data size: 223527
+finish loading: 50000 data size: 278697
+long inputs: 0
+../../data/finetune_training.jsonl total size: 278697
+finish loading: 10000 data size: 55511
+long inputs: 0
+../../data/finetune_validation.jsonl total size: 80317
+finish data pre-processing
+시간: 2024-09-28 21:19:40.634523
+time: 1727525980.634523
+
+epoch: 1, step: 0/13935, loss: 11.6712, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-28 21:19:41.732803
+time: 1727525981.732803
+validation loss: 6.6115
+
+epoch: 1, step: 1000/13935, loss: 1.831, lr: 9.9e-05, oom: 0, time: 593s
+start validation
+시간: 2024-09-28 21:29:35.320468
+time: 1727526575.320468
+validation loss: 1.5128
+
+epoch: 1, step: 2000/13935, loss: 1.5942, lr: 9.5e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 21:39:38.446041
+time: 1727527178.446041
+validation loss: 1.1297
+
+epoch: 1, step: 3000/13935, loss: 1.4203, lr: 8.9e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 21:49:42.014913
+time: 1727527782.014913
+validation loss: 0.906
+
+epoch: 1, step: 4000/13935, loss: 1.2834, lr: 8.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 21:59:44.492974
+time: 1727528384.492974
+validation loss: 0.7831
+
+epoch: 1, step: 5000/13935, loss: 1.1853, lr: 7.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 22:09:47.073948
+time: 1727528987.073948
+validation loss: 0.7222
+
+epoch: 1, step: 6000/13935, loss: 1.1119, lr: 6.1e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 22:19:50.000577
+time: 1727529590.000577
+validation loss: 0.688
+
+epoch: 1, step: 7000/13935, loss: 1.0538, lr: 5e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 22:29:53.291286
+time: 1727530193.291286
+validation loss: 0.6577
+
+epoch: 1, step: 8000/13935, loss: 1.0052, lr: 3.8e-05, oom: 0, time: 612s
+start validation
+시간: 2024-09-28 22:40:05.425660
+time: 1727530805.42566
+validation loss: 0.6406
+
+epoch: 1, step: 9000/13935, loss: 0.9656, lr: 2.8e-05, oom: 0, time: 602s
+start validation
+시간: 2024-09-28 22:50:08.295405
+time: 1727531408.295405
+validation loss: 0.6247
+
+epoch: 1, step: 10000/13935, loss: 0.9328, lr: 1.8e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 23:00:11.660049
+time: 1727532011.660049
+validation loss: 0.6108
+
+epoch: 1, step: 11000/13935, loss: 0.9021, lr: 1.1e-05, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 23:10:14.731245
+time: 1727532614.731245
+validation loss: 0.6016
+
+epoch: 1, step: 12000/13935, loss: 0.8777, lr: 5e-06, oom: 0, time: 603s
+start validation
+시간: 2024-09-28 23:20:18.296684
+time: 1727533218.296684
+validation loss: 0.5959
+
+epoch: 1, step: 13000/13935, loss: 0.855, lr: 1e-06, oom: 0, time: 610s
+start validation
+시간: 2024-09-28 23:30:28.767945
+time: 1727533828.767945
+validation loss: 0.5924
+
+start validation
+시간: 2024-09-28 23:40:14.186411
+time: 1727534414.186411
+validation loss: 0.5933

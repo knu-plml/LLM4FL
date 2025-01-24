@@ -1,0 +1,3868 @@
+model parameters: 139220736
+save dir: ../../models/Java-finetuned-model/plbart-base-finetune/0/
+
+start data pre-processing
+시간: 2024-09-14 20:10:11.217089
+time: 1726312211.217089
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-14 20:14:53.512996
+time: 1726312493.512996
+
+epoch: 1, step: 0/38440, loss: 5.9279, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-14 20:14:54.271070
+time: 1726312494.27107
+validation loss: 5.1245
+
+epoch: 1, step: 1000/38440, loss: 0.2243, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:17:04.030065
+time: 1726312624.030065
+validation loss: 0.1478
+
+epoch: 1, step: 2000/38440, loss: 0.1863, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:19:13.553236
+time: 1726312753.553236
+validation loss: 0.1351
+
+epoch: 1, step: 3000/38440, loss: 0.1701, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:21:22.616358
+time: 1726312882.616358
+validation loss: 0.1337
+
+epoch: 1, step: 4000/38440, loss: 0.1601, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:23:31.964043
+time: 1726313011.964043
+validation loss: 0.1268
+
+epoch: 1, step: 5000/38440, loss: 0.1547, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:25:41.068508
+time: 1726313141.068508
+validation loss: 0.1258
+
+epoch: 1, step: 6000/38440, loss: 0.1508, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:27:50.343924
+time: 1726313270.343924
+validation loss: 0.123
+
+epoch: 1, step: 7000/38440, loss: 0.1468, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:29:59.858476
+time: 1726313399.858476
+validation loss: 0.1212
+
+epoch: 1, step: 8000/38440, loss: 0.1433, lr: 9e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 20:32:08.716371
+time: 1726313528.716371
+validation loss: 0.1201
+
+epoch: 1, step: 9000/38440, loss: 0.1411, lr: 9e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 20:34:17.507660
+time: 1726313657.50766
+validation loss: 0.1201
+
+epoch: 1, step: 10000/38440, loss: 0.1388, lr: 8e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 20:36:20.381044
+time: 1726313780.381044
+validation loss: 0.1201
+
+epoch: 1, step: 11000/38440, loss: 0.1372, lr: 8e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 20:38:23.007038
+time: 1726313903.007038
+validation loss: 0.1196
+
+epoch: 1, step: 12000/38440, loss: 0.1362, lr: 8e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 20:40:31.964724
+time: 1726314031.964724
+validation loss: 0.1184
+
+epoch: 1, step: 13000/38440, loss: 0.1346, lr: 7e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:42:41.052408
+time: 1726314161.052408
+validation loss: 0.1151
+
+epoch: 1, step: 14000/38440, loss: 0.1335, lr: 7e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:44:51.026645
+time: 1726314291.026645
+validation loss: 0.1217
+
+epoch: 1, step: 15000/38440, loss: 0.1322, lr: 7e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 20:46:54.324877
+time: 1726314414.324877
+validation loss: 0.1157
+
+epoch: 1, step: 16000/38440, loss: 0.1317, lr: 6e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 20:48:57.614235
+time: 1726314537.614235
+validation loss: 0.1143
+
+epoch: 1, step: 17000/38440, loss: 0.1311, lr: 6e-06, oom: 0, time: 130s
+start validation
+시간: 2024-09-14 20:51:07.651599
+time: 1726314667.651599
+validation loss: 0.1131
+
+epoch: 1, step: 18000/38440, loss: 0.1305, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:53:16.825154
+time: 1726314796.825154
+validation loss: 0.1129
+
+epoch: 1, step: 19000/38440, loss: 0.1297, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:55:25.865596
+time: 1726314925.865596
+validation loss: 0.1104
+
+epoch: 1, step: 20000/38440, loss: 0.1291, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 20:57:35.117496
+time: 1726315055.117496
+validation loss: 0.1121
+
+epoch: 1, step: 21000/38440, loss: 0.1284, lr: 4e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 20:59:38.476526
+time: 1726315178.476526
+validation loss: 0.1119
+
+epoch: 1, step: 22000/38440, loss: 0.1279, lr: 4e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 21:01:41.347813
+time: 1726315301.347813
+validation loss: 0.1131
+
+epoch: 1, step: 23000/38440, loss: 0.1274, lr: 3e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:03:44.531145
+time: 1726315424.531145
+validation loss: 0.1115
+
+epoch: 1, step: 24000/38440, loss: 0.1268, lr: 3e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:05:47.978123
+time: 1726315547.978123
+validation loss: 0.1118
+
+epoch: 1, step: 25000/38440, loss: 0.1261, lr: 3e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:07:51.581721
+time: 1726315671.581721
+validation loss: 0.1095
+
+epoch: 1, step: 26000/38440, loss: 0.1253, lr: 2e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 21:10:00.282992
+time: 1726315800.282992
+validation loss: 0.1095
+
+epoch: 1, step: 27000/38440, loss: 0.1245, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 21:12:03.211401
+time: 1726315923.211401
+validation loss: 0.1111
+
+epoch: 1, step: 28000/38440, loss: 0.124, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 21:14:06.188033
+time: 1726316046.188033
+validation loss: 0.1097
+
+epoch: 1, step: 29000/38440, loss: 0.1237, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:16:09.471267
+time: 1726316169.471267
+validation loss: 0.1072
+
+epoch: 1, step: 30000/38440, loss: 0.1231, lr: 1e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:18:18.901182
+time: 1726316298.901182
+validation loss: 0.108
+
+epoch: 1, step: 31000/38440, loss: 0.1226, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:20:22.490615
+time: 1726316422.490615
+validation loss: 0.1122
+
+epoch: 1, step: 32000/38440, loss: 0.1222, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:22:25.584705
+time: 1726316545.584705
+validation loss: 0.1093
+
+epoch: 1, step: 33000/38440, loss: 0.1219, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:24:28.923798
+time: 1726316668.923798
+validation loss: 0.1071
+
+epoch: 1, step: 34000/38440, loss: 0.1214, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:26:38.059883
+time: 1726316798.059883
+validation loss: 0.1072
+
+epoch: 1, step: 35000/38440, loss: 0.1211, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:28:41.369807
+time: 1726316921.369807
+validation loss: 0.1084
+
+epoch: 1, step: 36000/38440, loss: 0.1206, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:30:44.693543
+time: 1726317044.693543
+validation loss: 0.1069
+
+epoch: 1, step: 37000/38440, loss: 0.1203, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:32:54.283482
+time: 1726317174.283482
+validation loss: 0.1072
+
+epoch: 1, step: 38000/38440, loss: 0.1199, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 21:34:57.389408
+time: 1726317297.389408
+validation loss: 0.1075
+
+start validation
+시간: 2024-09-14 21:36:26.673086
+time: 1726317386.673086
+validation loss: 0.1072
+model parameters: 139220736
+save dir: ../../models/Java-finetuned-model/plbart-base-finetune/1/
+
+start data pre-processing
+시간: 2024-09-14 21:37:34.860262
+time: 1726317454.860262
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-14 21:42:18.541927
+time: 1726317738.541927
+
+epoch: 1, step: 0/38440, loss: 5.8062, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-14 21:42:19.520578
+time: 1726317739.520578
+validation loss: 5.1258
+
+epoch: 1, step: 1000/38440, loss: 0.2303, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:44:29.360884
+time: 1726317869.360884
+validation loss: 0.1422
+
+epoch: 1, step: 2000/38440, loss: 0.1841, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:46:38.487991
+time: 1726317998.487991
+validation loss: 0.1358
+
+epoch: 1, step: 3000/38440, loss: 0.1693, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:48:47.683170
+time: 1726318127.68317
+validation loss: 0.1356
+
+epoch: 1, step: 4000/38440, loss: 0.1626, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 21:50:56.634194
+time: 1726318256.634194
+validation loss: 0.1261
+
+epoch: 1, step: 5000/38440, loss: 0.1564, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:53:06.071696
+time: 1726318386.071696
+validation loss: 0.1335
+
+epoch: 1, step: 6000/38440, loss: 0.1519, lr: 9e-06, oom: 0, time: 124s
+start validation
+시간: 2024-09-14 21:55:10.317634
+time: 1726318510.317634
+validation loss: 0.1236
+
+epoch: 1, step: 7000/38440, loss: 0.1477, lr: 9e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 21:57:19.192238
+time: 1726318639.192238
+validation loss: 0.1228
+
+epoch: 1, step: 8000/38440, loss: 0.1452, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 21:59:29.148940
+time: 1726318769.14894
+validation loss: 0.1212
+
+epoch: 1, step: 9000/38440, loss: 0.1427, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:01:38.427104
+time: 1726318898.427104
+validation loss: 0.1197
+
+epoch: 1, step: 10000/38440, loss: 0.1407, lr: 8e-06, oom: 0, time: 132s
+start validation
+시간: 2024-09-14 22:03:50.880555
+time: 1726319030.880555
+validation loss: 0.1192
+
+epoch: 1, step: 11000/38440, loss: 0.1392, lr: 8e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:06:00.338128
+time: 1726319160.338128
+validation loss: 0.1187
+
+epoch: 1, step: 12000/38440, loss: 0.1377, lr: 8e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:08:10.259992
+time: 1726319290.259992
+validation loss: 0.1154
+
+epoch: 1, step: 13000/38440, loss: 0.1359, lr: 7e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 22:10:19.188132
+time: 1726319419.188132
+validation loss: 0.1171
+
+epoch: 1, step: 14000/38440, loss: 0.1348, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 22:12:21.964716
+time: 1726319541.964716
+validation loss: 0.1152
+
+epoch: 1, step: 15000/38440, loss: 0.1337, lr: 7e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 22:14:30.647195
+time: 1726319670.647195
+validation loss: 0.1197
+
+epoch: 1, step: 16000/38440, loss: 0.1326, lr: 6e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:16:34.016000
+time: 1726319794.016
+validation loss: 0.1249
+
+epoch: 1, step: 17000/38440, loss: 0.1313, lr: 6e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:18:37.376075
+time: 1726319917.376075
+validation loss: 0.1122
+
+epoch: 1, step: 18000/38440, loss: 0.1306, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:20:46.799909
+time: 1726320046.799909
+validation loss: 0.1143
+
+epoch: 1, step: 19000/38440, loss: 0.1298, lr: 5e-06, oom: 0, time: 124s
+start validation
+시간: 2024-09-14 22:22:50.887179
+time: 1726320170.887179
+validation loss: 0.1219
+
+epoch: 1, step: 20000/38440, loss: 0.1289, lr: 5e-06, oom: 0, time: 124s
+start validation
+시간: 2024-09-14 22:24:55.226615
+time: 1726320295.226615
+validation loss: 0.1143
+
+epoch: 1, step: 21000/38440, loss: 0.128, lr: 4e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:26:58.288452
+time: 1726320418.288452
+validation loss: 0.1126
+
+epoch: 1, step: 22000/38440, loss: 0.1271, lr: 4e-06, oom: 0, time: 124s
+start validation
+시간: 2024-09-14 22:29:02.366736
+time: 1726320542.366736
+validation loss: 0.1107
+
+epoch: 1, step: 23000/38440, loss: 0.1266, lr: 3e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 22:31:11.196561
+time: 1726320671.196561
+validation loss: 0.1107
+
+epoch: 1, step: 24000/38440, loss: 0.126, lr: 3e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:33:14.578190
+time: 1726320794.57819
+validation loss: 0.1088
+
+epoch: 1, step: 25000/38440, loss: 0.1251, lr: 3e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:35:23.835449
+time: 1726320923.835449
+validation loss: 0.1098
+
+epoch: 1, step: 26000/38440, loss: 0.1247, lr: 2e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:37:26.884266
+time: 1726321046.884266
+validation loss: 0.1096
+
+epoch: 1, step: 27000/38440, loss: 0.1242, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 22:39:29.489814
+time: 1726321169.489814
+validation loss: 0.1094
+
+epoch: 1, step: 28000/38440, loss: 0.1238, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 22:41:32.331723
+time: 1726321292.331723
+validation loss: 0.1108
+
+epoch: 1, step: 29000/38440, loss: 0.1234, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:43:35.396712
+time: 1726321415.396712
+validation loss: 0.1071
+
+epoch: 1, step: 30000/38440, loss: 0.123, lr: 1e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:45:44.945629
+time: 1726321544.945629
+validation loss: 0.1071
+
+epoch: 1, step: 31000/38440, loss: 0.1226, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:47:48.122499
+time: 1726321668.122499
+validation loss: 0.1071
+
+epoch: 1, step: 32000/38440, loss: 0.1222, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:49:51.311585
+time: 1726321791.311585
+validation loss: 0.1086
+
+epoch: 1, step: 33000/38440, loss: 0.1217, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:51:54.325814
+time: 1726321914.325814
+validation loss: 0.1076
+
+epoch: 1, step: 34000/38440, loss: 0.1212, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 22:53:57.717228
+time: 1726322037.717228
+validation loss: 0.1064
+
+epoch: 1, step: 35000/38440, loss: 0.121, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 22:56:07.356029
+time: 1726322167.356029
+validation loss: 0.1073
+
+epoch: 1, step: 36000/38440, loss: 0.1207, lr: 0.0, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 22:58:10.148854
+time: 1726322290.148854
+validation loss: 0.1068
+
+epoch: 1, step: 37000/38440, loss: 0.1203, lr: 0.0, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:00:12.956994
+time: 1726322412.956994
+validation loss: 0.1073
+
+epoch: 1, step: 38000/38440, loss: 0.12, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 23:02:16.282038
+time: 1726322536.282038
+validation loss: 0.107
+
+start validation
+시간: 2024-09-14 23:03:46.056810
+time: 1726322626.05681
+validation loss: 0.107
+model parameters: 139220736
+save dir: ../../models/Java-finetuned-model/plbart-base-finetune/2/
+
+start data pre-processing
+시간: 2024-09-14 23:04:54.690953
+time: 1726322694.690953
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-14 23:09:35.313962
+time: 1726322975.313962
+
+epoch: 1, step: 0/38440, loss: 7.3173, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-14 23:09:36.293234
+time: 1726322976.293234
+validation loss: 5.1053
+
+epoch: 1, step: 1000/38440, loss: 0.2202, lr: 1e-05, oom: 0, time: 124s
+start validation
+시간: 2024-09-14 23:11:40.575965
+time: 1726323100.575965
+validation loss: 0.142
+
+epoch: 1, step: 2000/38440, loss: 0.1834, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 23:13:48.986243
+time: 1726323228.986243
+validation loss: 0.1328
+
+epoch: 1, step: 3000/38440, loss: 0.1674, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 23:15:57.354791
+time: 1726323357.354791
+validation loss: 0.1272
+
+epoch: 1, step: 4000/38440, loss: 0.1576, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 23:18:06.452742
+time: 1726323486.452742
+validation loss: 0.1292
+
+epoch: 1, step: 5000/38440, loss: 0.1537, lr: 1e-05, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:20:08.680070
+time: 1726323608.68007
+validation loss: 0.1243
+
+epoch: 1, step: 6000/38440, loss: 0.1494, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 23:22:17.765906
+time: 1726323737.765906
+validation loss: 0.1273
+
+epoch: 1, step: 7000/38440, loss: 0.1461, lr: 9e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:24:19.993244
+time: 1726323859.993244
+validation loss: 0.1208
+
+epoch: 1, step: 8000/38440, loss: 0.1431, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 23:26:29.256571
+time: 1726323989.256571
+validation loss: 0.124
+
+epoch: 1, step: 9000/38440, loss: 0.1411, lr: 9e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:28:31.848386
+time: 1726324111.848386
+validation loss: 0.1219
+
+epoch: 1, step: 10000/38440, loss: 0.1386, lr: 8e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 23:30:35.228171
+time: 1726324235.228171
+validation loss: 0.1192
+
+epoch: 1, step: 11000/38440, loss: 0.1369, lr: 8e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-14 23:32:44.488037
+time: 1726324364.488037
+validation loss: 0.1181
+
+epoch: 1, step: 12000/38440, loss: 0.1355, lr: 8e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 23:34:52.937464
+time: 1726324492.937464
+validation loss: 0.119
+
+epoch: 1, step: 13000/38440, loss: 0.1342, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:36:55.436366
+time: 1726324615.436366
+validation loss: 0.1197
+
+epoch: 1, step: 14000/38440, loss: 0.1332, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:38:57.841933
+time: 1726324737.841933
+validation loss: 0.1196
+
+epoch: 1, step: 15000/38440, loss: 0.1324, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:41:00.482447
+time: 1726324860.482447
+validation loss: 0.1166
+
+epoch: 1, step: 16000/38440, loss: 0.1317, lr: 6e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 23:43:09.063142
+time: 1726324989.063142
+validation loss: 0.1128
+
+epoch: 1, step: 17000/38440, loss: 0.1305, lr: 6e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 23:45:17.965986
+time: 1726325117.965986
+validation loss: 0.1151
+
+epoch: 1, step: 18000/38440, loss: 0.13, lr: 5e-06, oom: 0, time: 121s
+start validation
+시간: 2024-09-14 23:47:19.965812
+time: 1726325239.965812
+validation loss: 0.1129
+
+epoch: 1, step: 19000/38440, loss: 0.1292, lr: 5e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 23:49:23.199773
+time: 1726325363.199773
+validation loss: 0.1137
+
+epoch: 1, step: 20000/38440, loss: 0.1286, lr: 5e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 23:51:26.259564
+time: 1726325486.259564
+validation loss: 0.1101
+
+epoch: 1, step: 21000/38440, loss: 0.1283, lr: 4e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-14 23:53:35.069215
+time: 1726325615.069215
+validation loss: 0.1157
+
+epoch: 1, step: 22000/38440, loss: 0.1276, lr: 4e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-14 23:55:38.251845
+time: 1726325738.251845
+validation loss: 0.1127
+
+epoch: 1, step: 23000/38440, loss: 0.1269, lr: 3e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:57:40.481604
+time: 1726325860.481604
+validation loss: 0.1116
+
+epoch: 1, step: 24000/38440, loss: 0.1265, lr: 3e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-14 23:59:43.271961
+time: 1726325983.271961
+validation loss: 0.1095
+
+epoch: 1, step: 25000/38440, loss: 0.126, lr: 3e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:01:53.105659
+time: 1726326113.105659
+validation loss: 0.1095
+
+epoch: 1, step: 26000/38440, loss: 0.1253, lr: 2e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 00:03:56.549287
+time: 1726326236.549287
+validation loss: 0.1136
+
+epoch: 1, step: 27000/38440, loss: 0.1248, lr: 2e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 00:06:00.126082
+time: 1726326360.126082
+validation loss: 0.1097
+
+epoch: 1, step: 28000/38440, loss: 0.1243, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 00:08:02.454268
+time: 1726326482.454268
+validation loss: 0.1102
+
+epoch: 1, step: 29000/38440, loss: 0.1237, lr: 1e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 00:10:04.984492
+time: 1726326604.984492
+validation loss: 0.1083
+
+epoch: 1, step: 30000/38440, loss: 0.1232, lr: 1e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:12:14.259158
+time: 1726326734.259158
+validation loss: 0.1078
+
+epoch: 1, step: 31000/38440, loss: 0.1227, lr: 1e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:14:23.525539
+time: 1726326863.525539
+validation loss: 0.1071
+
+epoch: 1, step: 32000/38440, loss: 0.1223, lr: 1e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:16:31.609021
+time: 1726326991.609021
+validation loss: 0.1074
+
+epoch: 1, step: 33000/38440, loss: 0.1218, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 00:18:35.107611
+time: 1726327115.107611
+validation loss: 0.1066
+
+epoch: 1, step: 34000/38440, loss: 0.1214, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:20:44.205684
+time: 1726327244.205684
+validation loss: 0.1069
+
+epoch: 1, step: 35000/38440, loss: 0.1211, lr: 0.0, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 00:22:47.069320
+time: 1726327367.06932
+validation loss: 0.1067
+
+epoch: 1, step: 36000/38440, loss: 0.1207, lr: 0.0, oom: 0, time: 121s
+start validation
+시간: 2024-09-15 00:24:49.026235
+time: 1726327489.026235
+validation loss: 0.1065
+
+epoch: 1, step: 37000/38440, loss: 0.1204, lr: 0.0, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:26:57.617018
+time: 1726327617.617018
+validation loss: 0.1069
+
+epoch: 1, step: 38000/38440, loss: 0.12, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 00:29:00.641390
+time: 1726327740.64139
+validation loss: 0.1069
+
+start validation
+시간: 2024-09-15 00:30:29.953331
+time: 1726327829.953331
+validation loss: 0.1068
+model parameters: 139220736
+save dir: ../../models/Java-finetuned-model/plbart-base-finetune/3/
+
+start data pre-processing
+시간: 2024-09-15 00:31:38.055615
+time: 1726327898.055615
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-15 00:36:17.507980
+time: 1726328177.50798
+
+epoch: 1, step: 0/38440, loss: 6.8306, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-15 00:36:18.472553
+time: 1726328178.472553
+validation loss: 5.1213
+
+epoch: 1, step: 1000/38440, loss: 0.2308, lr: 1e-05, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 00:38:21.694785
+time: 1726328301.694785
+validation loss: 0.1409
+
+epoch: 1, step: 2000/38440, loss: 0.1867, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:40:30.516130
+time: 1726328430.51613
+validation loss: 0.1328
+
+epoch: 1, step: 3000/38440, loss: 0.1727, lr: 1e-05, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:42:39.967862
+time: 1726328559.967862
+validation loss: 0.1269
+
+epoch: 1, step: 4000/38440, loss: 0.1631, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:44:48.960102
+time: 1726328688.960102
+validation loss: 0.1291
+
+epoch: 1, step: 5000/38440, loss: 0.157, lr: 1e-05, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 00:46:51.506365
+time: 1726328811.506365
+validation loss: 0.1262
+
+epoch: 1, step: 6000/38440, loss: 0.1522, lr: 9e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:49:00.230541
+time: 1726328940.230541
+validation loss: 0.1248
+
+epoch: 1, step: 7000/38440, loss: 0.1491, lr: 9e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:51:08.892526
+time: 1726329068.892526
+validation loss: 0.1219
+
+epoch: 1, step: 8000/38440, loss: 0.1465, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:53:18.025140
+time: 1726329198.02514
+validation loss: 0.1215
+
+epoch: 1, step: 9000/38440, loss: 0.1435, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 00:55:27.412891
+time: 1726329327.412891
+validation loss: 0.1308
+
+epoch: 1, step: 10000/38440, loss: 0.1418, lr: 8e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 00:57:31.012578
+time: 1726329451.012578
+validation loss: 0.1178
+
+epoch: 1, step: 11000/38440, loss: 0.1402, lr: 8e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 00:59:39.403465
+time: 1726329579.403465
+validation loss: 0.1177
+
+epoch: 1, step: 12000/38440, loss: 0.1384, lr: 8e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:01:49.328257
+time: 1726329709.328257
+validation loss: 0.1163
+
+epoch: 1, step: 13000/38440, loss: 0.1374, lr: 7e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 01:03:58.159564
+time: 1726329838.159564
+validation loss: 0.117
+
+epoch: 1, step: 14000/38440, loss: 0.136, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 01:06:00.875291
+time: 1726329960.875291
+validation loss: 0.1152
+
+epoch: 1, step: 15000/38440, loss: 0.1344, lr: 7e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 01:08:09.567570
+time: 1726330089.56757
+validation loss: 0.1149
+
+epoch: 1, step: 16000/38440, loss: 0.1333, lr: 6e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:10:18.691613
+time: 1726330218.691613
+validation loss: 0.1192
+
+epoch: 1, step: 17000/38440, loss: 0.1324, lr: 6e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:12:22.020470
+time: 1726330342.02047
+validation loss: 0.1145
+
+epoch: 1, step: 18000/38440, loss: 0.1315, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:14:31.251098
+time: 1726330471.251098
+validation loss: 0.122
+
+epoch: 1, step: 19000/38440, loss: 0.1309, lr: 5e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 01:16:34.044683
+time: 1726330594.044683
+validation loss: 0.1135
+
+epoch: 1, step: 20000/38440, loss: 0.1299, lr: 5e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 01:18:42.690781
+time: 1726330722.690781
+validation loss: 0.1116
+
+epoch: 1, step: 21000/38440, loss: 0.1292, lr: 4e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:20:52.414783
+time: 1726330852.414783
+validation loss: 0.1137
+
+epoch: 1, step: 22000/38440, loss: 0.1286, lr: 4e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:22:56.161652
+time: 1726330976.161652
+validation loss: 0.1106
+
+epoch: 1, step: 23000/38440, loss: 0.1278, lr: 3e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:25:05.173609
+time: 1726331105.173609
+validation loss: 0.1114
+
+epoch: 1, step: 24000/38440, loss: 0.1273, lr: 3e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 01:27:07.954506
+time: 1726331227.954506
+validation loss: 0.1099
+
+epoch: 1, step: 25000/38440, loss: 0.1266, lr: 3e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:29:17.353718
+time: 1726331357.353718
+validation loss: 0.1093
+
+epoch: 1, step: 26000/38440, loss: 0.126, lr: 2e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 01:31:26.312019
+time: 1726331486.312019
+validation loss: 0.1084
+
+epoch: 1, step: 27000/38440, loss: 0.1254, lr: 2e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 01:33:35.151033
+time: 1726331615.151033
+validation loss: 0.111
+
+epoch: 1, step: 28000/38440, loss: 0.1248, lr: 2e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:35:38.392498
+time: 1726331738.392498
+validation loss: 0.1091
+
+epoch: 1, step: 29000/38440, loss: 0.1242, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:37:41.631503
+time: 1726331861.631503
+validation loss: 0.1075
+
+epoch: 1, step: 30000/38440, loss: 0.1238, lr: 1e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:39:50.726353
+time: 1726331990.726353
+validation loss: 0.1077
+
+epoch: 1, step: 31000/38440, loss: 0.1232, lr: 1e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 01:41:53.718336
+time: 1726332113.718336
+validation loss: 0.1082
+
+epoch: 1, step: 32000/38440, loss: 0.1227, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:43:56.797654
+time: 1726332236.797654
+validation loss: 0.1082
+
+epoch: 1, step: 33000/38440, loss: 0.1222, lr: 0.0, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 01:45:59.334212
+time: 1726332359.334212
+validation loss: 0.1067
+
+epoch: 1, step: 34000/38440, loss: 0.1217, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 01:48:08.564392
+time: 1726332488.564392
+validation loss: 0.1079
+
+epoch: 1, step: 35000/38440, loss: 0.1213, lr: 0.0, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 01:50:11.545698
+time: 1726332611.545698
+validation loss: 0.1075
+
+epoch: 1, step: 36000/38440, loss: 0.1209, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:52:14.817864
+time: 1726332734.817864
+validation loss: 0.1073
+
+epoch: 1, step: 37000/38440, loss: 0.1206, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:54:17.909829
+time: 1726332857.909829
+validation loss: 0.1076
+
+epoch: 1, step: 38000/38440, loss: 0.1202, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 01:56:20.947412
+time: 1726332980.947412
+validation loss: 0.1075
+
+start validation
+시간: 2024-09-15 01:57:49.746066
+time: 1726333069.746066
+validation loss: 0.1075
+model parameters: 139220736
+save dir: ../../models/Java-finetuned-model/plbart-base-finetune/4/
+
+start data pre-processing
+시간: 2024-09-15 01:58:58.091895
+time: 1726333138.091895
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-15 02:03:38.330122
+time: 1726333418.330122
+
+epoch: 1, step: 0/38440, loss: 6.4751, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-15 02:03:39.246999
+time: 1726333419.246999
+validation loss: 5.2047
+
+epoch: 1, step: 1000/38440, loss: 0.2291, lr: 1e-05, oom: 0, time: 124s
+start validation
+시간: 2024-09-15 02:05:43.743871
+time: 1726333543.743871
+validation loss: 0.1438
+
+epoch: 1, step: 2000/38440, loss: 0.1879, lr: 1e-05, oom: 0, time: 130s
+start validation
+시간: 2024-09-15 02:07:53.808860
+time: 1726333673.80886
+validation loss: 0.1346
+
+epoch: 1, step: 3000/38440, loss: 0.1705, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 02:10:02.322431
+time: 1726333802.322431
+validation loss: 0.1292
+
+epoch: 1, step: 4000/38440, loss: 0.1621, lr: 1e-05, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 02:12:11.129682
+time: 1726333931.129682
+validation loss: 0.1249
+
+epoch: 1, step: 5000/38440, loss: 0.1562, lr: 1e-05, oom: 0, time: 134s
+start validation
+시간: 2024-09-15 02:14:25.303803
+time: 1726334065.303803
+validation loss: 0.1281
+
+epoch: 1, step: 6000/38440, loss: 0.1508, lr: 9e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:16:28.505867
+time: 1726334188.505867
+validation loss: 0.1234
+
+epoch: 1, step: 7000/38440, loss: 0.1473, lr: 9e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 02:18:37.673957
+time: 1726334317.673957
+validation loss: 0.1199
+
+epoch: 1, step: 8000/38440, loss: 0.1445, lr: 9e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 02:20:46.576857
+time: 1726334446.576857
+validation loss: 0.1254
+
+epoch: 1, step: 9000/38440, loss: 0.142, lr: 9e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:22:49.845674
+time: 1726334569.845674
+validation loss: 0.1207
+
+epoch: 1, step: 10000/38440, loss: 0.1402, lr: 8e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:24:53.082870
+time: 1726334693.08287
+validation loss: 0.118
+
+epoch: 1, step: 11000/38440, loss: 0.1381, lr: 8e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 02:27:02.117227
+time: 1726334822.117227
+validation loss: 0.1217
+
+epoch: 1, step: 12000/38440, loss: 0.1369, lr: 8e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 02:29:04.602144
+time: 1726334944.602144
+validation loss: 0.1161
+
+epoch: 1, step: 13000/38440, loss: 0.1353, lr: 7e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 02:31:13.496623
+time: 1726335073.496623
+validation loss: 0.1256
+
+epoch: 1, step: 14000/38440, loss: 0.1344, lr: 7e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 02:33:16.031838
+time: 1726335196.031838
+validation loss: 0.1151
+
+epoch: 1, step: 15000/38440, loss: 0.1333, lr: 7e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 02:35:25.022162
+time: 1726335325.022162
+validation loss: 0.1162
+
+epoch: 1, step: 16000/38440, loss: 0.1322, lr: 6e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 02:37:27.965321
+time: 1726335447.965321
+validation loss: 0.1156
+
+epoch: 1, step: 17000/38440, loss: 0.1316, lr: 6e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:39:31.069701
+time: 1726335571.069701
+validation loss: 0.1129
+
+epoch: 1, step: 18000/38440, loss: 0.1307, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 02:41:40.463095
+time: 1726335700.463095
+validation loss: 0.1132
+
+epoch: 1, step: 19000/38440, loss: 0.1298, lr: 5e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:43:44.068223
+time: 1726335824.068223
+validation loss: 0.1119
+
+epoch: 1, step: 20000/38440, loss: 0.1289, lr: 5e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 02:45:53.300197
+time: 1726335953.300197
+validation loss: 0.1137
+
+epoch: 1, step: 21000/38440, loss: 0.1282, lr: 4e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:47:56.743579
+time: 1726336076.743579
+validation loss: 0.1134
+
+epoch: 1, step: 22000/38440, loss: 0.1276, lr: 4e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:49:59.988657
+time: 1726336199.988657
+validation loss: 0.1112
+
+epoch: 1, step: 23000/38440, loss: 0.127, lr: 3e-06, oom: 0, time: 128s
+start validation
+시간: 2024-09-15 02:52:08.453818
+time: 1726336328.453818
+validation loss: 0.1093
+
+epoch: 1, step: 24000/38440, loss: 0.1263, lr: 3e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 02:54:18.050425
+time: 1726336458.050425
+validation loss: 0.1106
+
+epoch: 1, step: 25000/38440, loss: 0.1259, lr: 3e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 02:56:21.424391
+time: 1726336581.424391
+validation loss: 0.1122
+
+epoch: 1, step: 26000/38440, loss: 0.1254, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 02:58:24.336121
+time: 1726336704.336121
+validation loss: 0.11
+
+epoch: 1, step: 27000/38440, loss: 0.1249, lr: 2e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 03:00:27.013194
+time: 1726336827.013194
+validation loss: 0.1083
+
+epoch: 1, step: 28000/38440, loss: 0.1244, lr: 2e-06, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 03:02:36.318348
+time: 1726336956.318348
+validation loss: 0.1084
+
+epoch: 1, step: 29000/38440, loss: 0.1239, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 03:04:39.663465
+time: 1726337079.663465
+validation loss: 0.1086
+
+epoch: 1, step: 30000/38440, loss: 0.1234, lr: 1e-06, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 03:06:42.021984
+time: 1726337202.021984
+validation loss: 0.1085
+
+epoch: 1, step: 31000/38440, loss: 0.1228, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 03:08:45.344532
+time: 1726337325.344532
+validation loss: 0.1089
+
+epoch: 1, step: 32000/38440, loss: 0.1223, lr: 1e-06, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 03:10:48.831155
+time: 1726337448.831155
+validation loss: 0.1085
+
+epoch: 1, step: 33000/38440, loss: 0.1219, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 03:12:51.842696
+time: 1726337571.842696
+validation loss: 0.1075
+
+epoch: 1, step: 34000/38440, loss: 0.1216, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 03:15:01.041939
+time: 1726337701.041939
+validation loss: 0.1079
+
+epoch: 1, step: 35000/38440, loss: 0.1213, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 03:17:04.089900
+time: 1726337824.0899
+validation loss: 0.1068
+
+epoch: 1, step: 36000/38440, loss: 0.1207, lr: 0.0, oom: 0, time: 129s
+start validation
+시간: 2024-09-15 03:19:13.669074
+time: 1726337953.669074
+validation loss: 0.1073
+
+epoch: 1, step: 37000/38440, loss: 0.1204, lr: 0.0, oom: 0, time: 123s
+start validation
+시간: 2024-09-15 03:21:16.709531
+time: 1726338076.709531
+validation loss: 0.107
+
+epoch: 1, step: 38000/38440, loss: 0.12, lr: 0.0, oom: 0, time: 122s
+start validation
+시간: 2024-09-15 03:23:19.295116
+time: 1726338199.295116
+validation loss: 0.107
+
+start validation
+시간: 2024-09-15 03:24:48.143170
+time: 1726338288.14317
+validation loss: 0.1072
+model parameters: 406025216
+save dir: ../../models/Java-finetuned-model/plbart-large-finetune/0/
+
+start data pre-processing
+시간: 2024-09-15 03:25:58.971524
+time: 1726338358.971524
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-15 03:30:39.096658
+time: 1726338639.096658
+
+epoch: 1, step: 0/102506, loss: 9.1899, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-15 03:30:40.068483
+time: 1726338640.068483
+validation loss: 5.7558
+
+epoch: 1, step: 1000/102506, loss: 0.2116, lr: 1e-05, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 03:35:52.163952
+time: 1726338952.163952
+validation loss: 0.1417
+
+epoch: 1, step: 2000/102506, loss: 0.1766, lr: 1e-05, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 03:41:21.516074
+time: 1726339281.516074
+validation loss: 0.1278
+
+epoch: 1, step: 3000/102506, loss: 0.1619, lr: 1e-05, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 03:46:50.978939
+time: 1726339610.978939
+validation loss: 0.1329
+
+epoch: 1, step: 4000/102506, loss: 0.1544, lr: 1e-05, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 03:52:02.243076
+time: 1726339922.243076
+validation loss: 0.1265
+
+epoch: 1, step: 5000/102506, loss: 0.1503, lr: 1e-05, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 03:57:32.630946
+time: 1726340252.630946
+validation loss: 0.1232
+
+epoch: 1, step: 6000/102506, loss: 0.1456, lr: 1e-05, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 04:03:03.559489
+time: 1726340583.559489
+validation loss: 0.1307
+
+epoch: 1, step: 7000/102506, loss: 0.1424, lr: 1e-05, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 04:08:14.666127
+time: 1726340894.666127
+validation loss: 0.1245
+
+epoch: 1, step: 8000/102506, loss: 0.1403, lr: 1e-05, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 04:13:26.264787
+time: 1726341206.264787
+validation loss: 0.1216
+
+epoch: 1, step: 9000/102506, loss: 0.1381, lr: 1e-05, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 04:18:55.497218
+time: 1726341535.497218
+validation loss: 0.121
+
+epoch: 1, step: 10000/102506, loss: 0.1369, lr: 1e-05, oom: 0, time: 331s
+start validation
+시간: 2024-09-15 04:24:27.476211
+time: 1726341867.476211
+validation loss: 0.1155
+
+epoch: 1, step: 11000/102506, loss: 0.1349, lr: 1e-05, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 04:29:57.119072
+time: 1726342197.119072
+validation loss: 0.1201
+
+epoch: 1, step: 12000/102506, loss: 0.1337, lr: 1e-05, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 04:35:09.098344
+time: 1726342509.098344
+validation loss: 0.1152
+
+epoch: 1, step: 13000/102506, loss: 0.1331, lr: 1e-05, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 04:40:39.853310
+time: 1726342839.85331
+validation loss: 0.115
+
+epoch: 1, step: 14000/102506, loss: 0.1325, lr: 1e-05, oom: 0, time: 331s
+start validation
+시간: 2024-09-15 04:46:11.778195
+time: 1726343171.778195
+validation loss: 0.1143
+
+epoch: 1, step: 15000/102506, loss: 0.1312, lr: 9e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 04:51:42.099394
+time: 1726343502.099394
+validation loss: 0.1219
+
+epoch: 1, step: 16000/102506, loss: 0.1305, lr: 9e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 04:56:54.145894
+time: 1726343814.145894
+validation loss: 0.1195
+
+epoch: 1, step: 17000/102506, loss: 0.1302, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 05:02:05.793069
+time: 1726344125.793069
+validation loss: 0.1184
+
+epoch: 1, step: 18000/102506, loss: 0.1294, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 05:07:16.803413
+time: 1726344436.803413
+validation loss: 0.1181
+
+epoch: 1, step: 19000/102506, loss: 0.1283, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 05:12:28.090490
+time: 1726344748.09049
+validation loss: 0.1135
+
+epoch: 1, step: 20000/102506, loss: 0.128, lr: 9e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 05:17:58.606424
+time: 1726345078.606424
+validation loss: 0.113
+
+epoch: 1, step: 21000/102506, loss: 0.1274, lr: 9e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 05:23:28.083997
+time: 1726345408.083997
+validation loss: 0.1116
+
+epoch: 1, step: 22000/102506, loss: 0.1268, lr: 9e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 05:28:57.691310
+time: 1726345737.69131
+validation loss: 0.1134
+
+epoch: 1, step: 23000/102506, loss: 0.1264, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 05:34:08.727859
+time: 1726346048.727859
+validation loss: 0.1163
+
+epoch: 1, step: 24000/102506, loss: 0.1259, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 05:39:20.028828
+time: 1726346360.028828
+validation loss: 0.1131
+
+epoch: 1, step: 25000/102506, loss: 0.1252, lr: 9e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 05:44:34.003764
+time: 1726346674.003764
+validation loss: 0.1114
+
+epoch: 1, step: 26000/102506, loss: 0.1249, lr: 8e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 05:50:04.998719
+time: 1726347004.998719
+validation loss: 0.1145
+
+epoch: 1, step: 27000/102506, loss: 0.1246, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 05:55:17.286459
+time: 1726347317.286459
+validation loss: 0.1134
+
+epoch: 1, step: 28000/102506, loss: 0.1245, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 06:00:29.429750
+time: 1726347629.42975
+validation loss: 0.1083
+
+epoch: 1, step: 29000/102506, loss: 0.1239, lr: 8e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 06:05:59.667871
+time: 1726347959.667871
+validation loss: 0.1105
+
+epoch: 1, step: 30000/102506, loss: 0.1235, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 06:11:11.764577
+time: 1726348271.764577
+validation loss: 0.1087
+
+epoch: 1, step: 31000/102506, loss: 0.1233, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 06:16:24.503676
+time: 1726348584.503676
+validation loss: 0.111
+
+epoch: 1, step: 32000/102506, loss: 0.1228, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 06:21:36.526347
+time: 1726348896.526347
+validation loss: 0.1087
+
+epoch: 1, step: 33000/102506, loss: 0.1225, lr: 8e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 06:26:47.881830
+time: 1726349207.88183
+validation loss: 0.1092
+
+epoch: 1, step: 34000/102506, loss: 0.122, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 06:32:00.356789
+time: 1726349520.356789
+validation loss: 0.1101
+
+epoch: 1, step: 35000/102506, loss: 0.1216, lr: 7e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 06:37:13.147877
+time: 1726349833.147877
+validation loss: 0.1092
+
+epoch: 1, step: 36000/102506, loss: 0.1214, lr: 7e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 06:42:24.852072
+time: 1726350144.852072
+validation loss: 0.1079
+
+epoch: 1, step: 37000/102506, loss: 0.1211, lr: 7e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 06:47:52.765856
+time: 1726350472.765856
+validation loss: 0.1068
+
+epoch: 1, step: 38000/102506, loss: 0.1208, lr: 7e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 06:53:20.608833
+time: 1726350800.608833
+validation loss: 0.107
+
+epoch: 1, step: 39000/102506, loss: 0.1206, lr: 7e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 06:58:32.149404
+time: 1726351112.149404
+validation loss: 0.1082
+
+epoch: 1, step: 40000/102506, loss: 0.1204, lr: 7e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 07:03:43.193786
+time: 1726351423.193786
+validation loss: 0.1096
+
+epoch: 1, step: 41000/102506, loss: 0.1201, lr: 7e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 07:08:55.272238
+time: 1726351735.272238
+validation loss: 0.1058
+
+epoch: 1, step: 42000/102506, loss: 0.1196, lr: 6e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 07:14:23.385669
+time: 1726352063.385669
+validation loss: 0.1044
+
+epoch: 1, step: 43000/102506, loss: 0.1192, lr: 6e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 07:19:52.537945
+time: 1726352392.537945
+validation loss: 0.1065
+
+epoch: 1, step: 44000/102506, loss: 0.1191, lr: 6e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 07:25:04.921699
+time: 1726352704.921699
+validation loss: 0.1041
+
+epoch: 1, step: 45000/102506, loss: 0.1188, lr: 6e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 07:30:35.368742
+time: 1726353035.368742
+validation loss: 0.1064
+
+epoch: 1, step: 46000/102506, loss: 0.1186, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 07:35:46.690600
+time: 1726353346.6906
+validation loss: 0.1058
+
+epoch: 1, step: 47000/102506, loss: 0.1185, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 07:40:58.328200
+time: 1726353658.3282
+validation loss: 0.1083
+
+epoch: 1, step: 48000/102506, loss: 0.1182, lr: 5e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 07:46:10.585525
+time: 1726353970.585525
+validation loss: 0.1049
+
+epoch: 1, step: 49000/102506, loss: 0.1179, lr: 5e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 07:51:22.140667
+time: 1726354282.140667
+validation loss: 0.1081
+
+epoch: 1, step: 50000/102506, loss: 0.1178, lr: 5e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 07:56:33.866849
+time: 1726354593.866849
+validation loss: 0.1037
+
+epoch: 1, step: 51000/102506, loss: 0.1175, lr: 5e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 08:02:03.149737
+time: 1726354923.149737
+validation loss: 0.1022
+
+epoch: 1, step: 52000/102506, loss: 0.1171, lr: 5e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 08:07:32.345560
+time: 1726355252.34556
+validation loss: 0.1047
+
+epoch: 1, step: 53000/102506, loss: 0.1168, lr: 5e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 08:12:44.034653
+time: 1726355564.034653
+validation loss: 0.1058
+
+epoch: 1, step: 54000/102506, loss: 0.1165, lr: 5e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 08:17:54.641034
+time: 1726355874.641034
+validation loss: 0.103
+
+epoch: 1, step: 55000/102506, loss: 0.1163, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 08:23:05.886589
+time: 1726356185.886589
+validation loss: 0.1026
+
+epoch: 1, step: 56000/102506, loss: 0.1162, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 08:28:17.176885
+time: 1726356497.176885
+validation loss: 0.1027
+
+epoch: 1, step: 57000/102506, loss: 0.1159, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 08:33:28.835464
+time: 1726356808.835464
+validation loss: 0.1018
+
+epoch: 1, step: 58000/102506, loss: 0.1157, lr: 4e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 08:38:57.850249
+time: 1726357137.850249
+validation loss: 0.1049
+
+epoch: 1, step: 59000/102506, loss: 0.1155, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 08:44:09.841528
+time: 1726357449.841528
+validation loss: 0.1021
+
+epoch: 1, step: 60000/102506, loss: 0.1152, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 08:49:21.279721
+time: 1726357761.279721
+validation loss: 0.1015
+
+epoch: 1, step: 61000/102506, loss: 0.1152, lr: 4e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 08:54:50.095097
+time: 1726358090.095097
+validation loss: 0.1027
+
+epoch: 1, step: 62000/102506, loss: 0.1149, lr: 3e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 09:00:03.277694
+time: 1726358403.277694
+validation loss: 0.1001
+
+epoch: 1, step: 63000/102506, loss: 0.1148, lr: 3e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 09:05:34.255602
+time: 1726358734.255602
+validation loss: 0.1009
+
+epoch: 1, step: 64000/102506, loss: 0.1146, lr: 3e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 09:10:46.849309
+time: 1726359046.849309
+validation loss: 0.1004
+
+epoch: 1, step: 65000/102506, loss: 0.1144, lr: 3e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 09:15:58.478130
+time: 1726359358.47813
+validation loss: 0.1008
+
+epoch: 1, step: 66000/102506, loss: 0.1142, lr: 3e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 09:21:10.186699
+time: 1726359670.186699
+validation loss: 0.1011
+
+epoch: 1, step: 67000/102506, loss: 0.114, lr: 3e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 09:26:20.909505
+time: 1726359980.909505
+validation loss: 0.0995
+
+epoch: 1, step: 68000/102506, loss: 0.1139, lr: 3e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 09:31:50.169935
+time: 1726360310.169935
+validation loss: 0.1008
+
+epoch: 1, step: 69000/102506, loss: 0.1136, lr: 2e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 09:37:01.902613
+time: 1726360621.902613
+validation loss: 0.0991
+
+epoch: 1, step: 70000/102506, loss: 0.1134, lr: 2e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 09:42:30.455083
+time: 1726360950.455083
+validation loss: 0.0996
+
+epoch: 1, step: 71000/102506, loss: 0.1132, lr: 2e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 09:47:41.432256
+time: 1726361261.432256
+validation loss: 0.0977
+
+epoch: 1, step: 72000/102506, loss: 0.113, lr: 2e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 09:53:10.304154
+time: 1726361590.304154
+validation loss: 0.1021
+
+epoch: 1, step: 73000/102506, loss: 0.1127, lr: 2e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 09:58:22.307629
+time: 1726361902.307629
+validation loss: 0.0982
+
+epoch: 1, step: 74000/102506, loss: 0.1125, lr: 2e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 10:03:33.006646
+time: 1726362213.006646
+validation loss: 0.0995
+
+epoch: 1, step: 75000/102506, loss: 0.1123, lr: 2e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 10:08:45.472340
+time: 1726362525.47234
+validation loss: 0.0984
+
+epoch: 1, step: 76000/102506, loss: 0.1121, lr: 2e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 10:13:56.691697
+time: 1726362836.691697
+validation loss: 0.0973
+
+epoch: 1, step: 77000/102506, loss: 0.112, lr: 1e-06, oom: 0, time: 337s
+start validation
+시간: 2024-09-15 10:19:34.587545
+time: 1726363174.587545
+validation loss: 0.0973
+
+epoch: 1, step: 78000/102506, loss: 0.1118, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 10:24:46.201477
+time: 1726363486.201477
+validation loss: 0.0979
+
+epoch: 1, step: 79000/102506, loss: 0.1115, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 10:29:58.081144
+time: 1726363798.081144
+validation loss: 0.0977
+
+epoch: 1, step: 80000/102506, loss: 0.1114, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 10:35:09.590472
+time: 1726364109.590472
+validation loss: 0.0972
+
+epoch: 1, step: 81000/102506, loss: 0.1113, lr: 1e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 10:40:39.455865
+time: 1726364439.455865
+validation loss: 0.0972
+
+epoch: 1, step: 82000/102506, loss: 0.1111, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 10:45:50.838372
+time: 1726364750.838372
+validation loss: 0.0967
+
+epoch: 1, step: 83000/102506, loss: 0.111, lr: 1e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 10:51:19.673152
+time: 1726365079.673152
+validation loss: 0.0975
+
+epoch: 1, step: 84000/102506, loss: 0.1108, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 10:56:32.319675
+time: 1726365392.319675
+validation loss: 0.097
+
+epoch: 1, step: 85000/102506, loss: 0.1106, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 11:01:44.776279
+time: 1726365704.776279
+validation loss: 0.0968
+
+epoch: 1, step: 86000/102506, loss: 0.1105, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 11:06:56.169944
+time: 1726366016.169944
+validation loss: 0.097
+
+epoch: 1, step: 87000/102506, loss: 0.1103, lr: 1e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 11:12:07.163536
+time: 1726366327.163536
+validation loss: 0.0981
+
+epoch: 1, step: 88000/102506, loss: 0.1102, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 11:17:19.767447
+time: 1726366639.767447
+validation loss: 0.0968
+
+epoch: 1, step: 89000/102506, loss: 0.11, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 11:22:31.419432
+time: 1726366951.419432
+validation loss: 0.0974
+
+epoch: 1, step: 90000/102506, loss: 0.1098, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 11:27:43.819577
+time: 1726367263.819577
+validation loss: 0.0967
+
+epoch: 1, step: 91000/102506, loss: 0.1097, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 11:32:55.855573
+time: 1726367575.855573
+validation loss: 0.0958
+
+epoch: 1, step: 92000/102506, loss: 0.1095, lr: 0.0, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 11:38:25.083229
+time: 1726367905.083229
+validation loss: 0.0964
+
+epoch: 1, step: 93000/102506, loss: 0.1094, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 11:43:37.972162
+time: 1726368217.972162
+validation loss: 0.0965
+
+epoch: 1, step: 94000/102506, loss: 0.1093, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 11:48:49.204897
+time: 1726368529.204897
+validation loss: 0.0963
+
+epoch: 1, step: 95000/102506, loss: 0.1091, lr: 0.0, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 11:54:00.092898
+time: 1726368840.092898
+validation loss: 0.0966
+
+epoch: 1, step: 96000/102506, loss: 0.1089, lr: 0.0, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 11:59:10.852107
+time: 1726369150.852107
+validation loss: 0.0965
+
+epoch: 1, step: 97000/102506, loss: 0.1087, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 12:04:22.247826
+time: 1726369462.247826
+validation loss: 0.0958
+
+epoch: 1, step: 98000/102506, loss: 0.1086, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 12:09:33.287384
+time: 1726369773.287384
+validation loss: 0.096
+
+epoch: 1, step: 99000/102506, loss: 0.1085, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 12:14:44.491686
+time: 1726370084.491686
+validation loss: 0.0957
+
+epoch: 1, step: 100000/102506, loss: 0.1084, lr: 0.0, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 12:20:13.262567
+time: 1726370413.262567
+validation loss: 0.0958
+
+epoch: 1, step: 101000/102506, loss: 0.1082, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 12:25:24.882166
+time: 1726370724.882166
+validation loss: 0.0959
+
+epoch: 1, step: 102000/102506, loss: 0.1082, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 12:30:37.098604
+time: 1726371037.098604
+validation loss: 0.0959
+
+start validation
+시간: 2024-09-15 12:35:02.910148
+time: 1726371302.910148
+validation loss: 0.096
+model parameters: 406025216
+save dir: ../../models/Java-finetuned-model/plbart-large-finetune/1/
+
+start data pre-processing
+시간: 2024-09-15 12:38:51.797577
+time: 1726371531.797577
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-15 12:43:34.441291
+time: 1726371814.441291
+
+epoch: 1, step: 0/102506, loss: 6.5062, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-15 12:43:35.417410
+time: 1726371815.41741
+validation loss: 5.4993
+
+epoch: 1, step: 1000/102506, loss: 0.2351, lr: 1e-05, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 12:48:46.125026
+time: 1726372126.125026
+validation loss: 0.1444
+
+epoch: 1, step: 2000/102506, loss: 0.1842, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 12:54:14.106764
+time: 1726372454.106764
+validation loss: 0.1323
+
+epoch: 1, step: 3000/102506, loss: 0.1697, lr: 1e-05, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 12:59:43.041764
+time: 1726372783.041764
+validation loss: 0.1348
+
+epoch: 1, step: 4000/102506, loss: 0.1614, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 13:04:52.811167
+time: 1726373092.811167
+validation loss: 0.1288
+
+epoch: 1, step: 5000/102506, loss: 0.1543, lr: 1e-05, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 13:10:21.928653
+time: 1726373421.928653
+validation loss: 0.1234
+
+epoch: 1, step: 6000/102506, loss: 0.149, lr: 1e-05, oom: 0, time: 334s
+start validation
+시간: 2024-09-15 13:15:56.415971
+time: 1726373756.415971
+validation loss: 0.121
+
+epoch: 1, step: 7000/102506, loss: 0.1463, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 13:21:23.984063
+time: 1726374083.984063
+validation loss: 0.1234
+
+epoch: 1, step: 8000/102506, loss: 0.1435, lr: 1e-05, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 13:26:34.949884
+time: 1726374394.949884
+validation loss: 0.1196
+
+epoch: 1, step: 9000/102506, loss: 0.1419, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 13:32:02.718126
+time: 1726374722.718126
+validation loss: 0.1261
+
+epoch: 1, step: 10000/102506, loss: 0.1406, lr: 1e-05, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 13:37:13.587970
+time: 1726375033.58797
+validation loss: 0.1227
+
+epoch: 1, step: 11000/102506, loss: 0.1395, lr: 1e-05, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 13:42:23.944034
+time: 1726375343.944034
+validation loss: 0.1217
+
+epoch: 1, step: 12000/102506, loss: 0.1379, lr: 1e-05, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 13:47:35.295115
+time: 1726375655.295115
+validation loss: 0.1203
+
+epoch: 1, step: 13000/102506, loss: 0.1364, lr: 1e-05, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 13:52:45.825529
+time: 1726375965.825529
+validation loss: 0.114
+
+epoch: 1, step: 14000/102506, loss: 0.135, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 13:58:13.495025
+time: 1726376293.495025
+validation loss: 0.1132
+
+epoch: 1, step: 15000/102506, loss: 0.1341, lr: 9e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 14:03:40.509092
+time: 1726376620.509092
+validation loss: 0.1138
+
+epoch: 1, step: 16000/102506, loss: 0.1337, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 14:08:51.386680
+time: 1726376931.38668
+validation loss: 0.1216
+
+epoch: 1, step: 17000/102506, loss: 0.1324, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 14:14:01.901643
+time: 1726377241.901643
+validation loss: 0.1168
+
+epoch: 1, step: 18000/102506, loss: 0.1313, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 14:19:12.616937
+time: 1726377552.616937
+validation loss: 0.1142
+
+epoch: 1, step: 19000/102506, loss: 0.1306, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 14:24:23.306334
+time: 1726377863.306334
+validation loss: 0.1128
+
+epoch: 1, step: 20000/102506, loss: 0.13, lr: 9e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 14:29:51.859895
+time: 1726378191.859895
+validation loss: 0.1112
+
+epoch: 1, step: 21000/102506, loss: 0.1292, lr: 9e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 14:35:21.210820
+time: 1726378521.21082
+validation loss: 0.112
+
+epoch: 1, step: 22000/102506, loss: 0.1283, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 14:40:32.280728
+time: 1726378832.280728
+validation loss: 0.1133
+
+epoch: 1, step: 23000/102506, loss: 0.1281, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 14:45:43.670141
+time: 1726379143.670141
+validation loss: 0.1138
+
+epoch: 1, step: 24000/102506, loss: 0.1271, lr: 9e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 14:50:56.289928
+time: 1726379456.289928
+validation loss: 0.1135
+
+epoch: 1, step: 25000/102506, loss: 0.1269, lr: 9e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 14:56:10.009953
+time: 1726379770.009953
+validation loss: 0.1108
+
+epoch: 1, step: 26000/102506, loss: 0.1266, lr: 8e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 15:01:40.204379
+time: 1726380100.204379
+validation loss: 0.1145
+
+epoch: 1, step: 27000/102506, loss: 0.1262, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 15:06:50.475997
+time: 1726380410.475997
+validation loss: 0.1144
+
+epoch: 1, step: 28000/102506, loss: 0.1256, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 15:12:00.206402
+time: 1726380720.206402
+validation loss: 0.1087
+
+epoch: 1, step: 29000/102506, loss: 0.125, lr: 8e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 15:17:29.259948
+time: 1726381049.259948
+validation loss: 0.1131
+
+epoch: 1, step: 30000/102506, loss: 0.1244, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 15:22:39.786208
+time: 1726381359.786208
+validation loss: 0.1108
+
+epoch: 1, step: 31000/102506, loss: 0.1237, lr: 8e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 15:27:51.318609
+time: 1726381671.318609
+validation loss: 0.1074
+
+epoch: 1, step: 32000/102506, loss: 0.1234, lr: 8e-06, oom: 0, time: 326s
+start validation
+시간: 2024-09-15 15:33:17.580691
+time: 1726381997.580691
+validation loss: 0.1088
+
+epoch: 1, step: 33000/102506, loss: 0.123, lr: 8e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 15:38:28.734976
+time: 1726382308.734976
+validation loss: 0.109
+
+epoch: 1, step: 34000/102506, loss: 0.1226, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 15:43:38.720103
+time: 1726382618.720103
+validation loss: 0.1111
+
+epoch: 1, step: 35000/102506, loss: 0.1225, lr: 7e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 15:48:49.523213
+time: 1726382929.523213
+validation loss: 0.1094
+
+epoch: 1, step: 36000/102506, loss: 0.1222, lr: 7e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 15:53:59.984729
+time: 1726383239.984729
+validation loss: 0.1122
+
+epoch: 1, step: 37000/102506, loss: 0.1217, lr: 7e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 15:59:09.641140
+time: 1726383549.64114
+validation loss: 0.1054
+
+epoch: 1, step: 38000/102506, loss: 0.1214, lr: 7e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 16:04:37.515015
+time: 1726383877.515015
+validation loss: 0.1134
+
+epoch: 1, step: 39000/102506, loss: 0.1211, lr: 7e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:09:48.741829
+time: 1726384188.741829
+validation loss: 0.1085
+
+epoch: 1, step: 40000/102506, loss: 0.1207, lr: 7e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:15:00.065478
+time: 1726384500.065478
+validation loss: 0.107
+
+epoch: 1, step: 41000/102506, loss: 0.1204, lr: 7e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 16:20:10.864464
+time: 1726384810.864464
+validation loss: 0.1058
+
+epoch: 1, step: 42000/102506, loss: 0.1202, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:25:21.949953
+time: 1726385121.949953
+validation loss: 0.1075
+
+epoch: 1, step: 43000/102506, loss: 0.1197, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:30:33.146136
+time: 1726385433.146136
+validation loss: 0.1076
+
+epoch: 1, step: 44000/102506, loss: 0.1195, lr: 6e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 16:35:45.202373
+time: 1726385745.202373
+validation loss: 0.1088
+
+epoch: 1, step: 45000/102506, loss: 0.1192, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:40:56.238040
+time: 1726386056.23804
+validation loss: 0.1061
+
+epoch: 1, step: 46000/102506, loss: 0.119, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:46:07.722381
+time: 1726386367.722381
+validation loss: 0.1055
+
+epoch: 1, step: 47000/102506, loss: 0.1185, lr: 6e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 16:51:18.934970
+time: 1726386678.93497
+validation loss: 0.1037
+
+epoch: 1, step: 48000/102506, loss: 0.1183, lr: 5e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 16:56:47.816439
+time: 1726387007.816439
+validation loss: 0.1057
+
+epoch: 1, step: 49000/102506, loss: 0.1181, lr: 5e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 17:01:58.282856
+time: 1726387318.282856
+validation loss: 0.1046
+
+epoch: 1, step: 50000/102506, loss: 0.1179, lr: 5e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 17:07:10.320934
+time: 1726387630.320934
+validation loss: 0.1033
+
+epoch: 1, step: 51000/102506, loss: 0.1176, lr: 5e-06, oom: 0, time: 341s
+start validation
+시간: 2024-09-15 17:12:51.522507
+time: 1726387971.522507
+validation loss: 0.1047
+
+epoch: 1, step: 52000/102506, loss: 0.1174, lr: 5e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 17:18:03.278825
+time: 1726388283.278825
+validation loss: 0.103
+
+epoch: 1, step: 53000/102506, loss: 0.1171, lr: 5e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 17:23:32.790771
+time: 1726388612.790771
+validation loss: 0.103
+
+epoch: 1, step: 54000/102506, loss: 0.117, lr: 5e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 17:28:44.650538
+time: 1726388924.650538
+validation loss: 0.1058
+
+epoch: 1, step: 55000/102506, loss: 0.1167, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 17:33:56.009051
+time: 1726389236.009051
+validation loss: 0.103
+
+epoch: 1, step: 56000/102506, loss: 0.1165, lr: 4e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 17:39:06.766043
+time: 1726389546.766043
+validation loss: 0.1037
+
+epoch: 1, step: 57000/102506, loss: 0.1163, lr: 4e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 17:44:18.888059
+time: 1726389858.888059
+validation loss: 0.1042
+
+epoch: 1, step: 58000/102506, loss: 0.1161, lr: 4e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 17:49:30.406082
+time: 1726390170.406082
+validation loss: 0.1008
+
+epoch: 1, step: 59000/102506, loss: 0.1159, lr: 4e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 17:55:00.415926
+time: 1726390500.415926
+validation loss: 0.1014
+
+epoch: 1, step: 60000/102506, loss: 0.1157, lr: 4e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 18:00:14.095321
+time: 1726390814.095321
+validation loss: 0.1012
+
+epoch: 1, step: 61000/102506, loss: 0.1155, lr: 4e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 18:05:27.413056
+time: 1726391127.413056
+validation loss: 0.102
+
+epoch: 1, step: 62000/102506, loss: 0.1152, lr: 3e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 18:10:39.396781
+time: 1726391439.396781
+validation loss: 0.1004
+
+epoch: 1, step: 63000/102506, loss: 0.1149, lr: 3e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 18:16:08.001954
+time: 1726391768.001954
+validation loss: 0.1017
+
+epoch: 1, step: 64000/102506, loss: 0.1146, lr: 3e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 18:21:19.503539
+time: 1726392079.503539
+validation loss: 0.1001
+
+epoch: 1, step: 65000/102506, loss: 0.1145, lr: 3e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 18:26:48.733228
+time: 1726392408.733228
+validation loss: 0.1007
+
+epoch: 1, step: 66000/102506, loss: 0.1143, lr: 3e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 18:32:01.027417
+time: 1726392721.027417
+validation loss: 0.1016
+
+epoch: 1, step: 67000/102506, loss: 0.1141, lr: 3e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 18:37:12.846546
+time: 1726393032.846546
+validation loss: 0.1001
+
+epoch: 1, step: 68000/102506, loss: 0.1139, lr: 3e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 18:42:24.556336
+time: 1726393344.556336
+validation loss: 0.1001
+
+epoch: 1, step: 69000/102506, loss: 0.1137, lr: 2e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 18:47:35.523020
+time: 1726393655.52302
+validation loss: 0.0997
+
+epoch: 1, step: 70000/102506, loss: 0.1135, lr: 2e-06, oom: 0, time: 335s
+start validation
+시간: 2024-09-15 18:53:11.371930
+time: 1726393991.37193
+validation loss: 0.0993
+
+epoch: 1, step: 71000/102506, loss: 0.1133, lr: 2e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 18:58:41.912199
+time: 1726394321.912199
+validation loss: 0.0987
+
+epoch: 1, step: 72000/102506, loss: 0.1131, lr: 2e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 19:04:10.017005
+time: 1726394650.017005
+validation loss: 0.099
+
+epoch: 1, step: 73000/102506, loss: 0.1129, lr: 2e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 19:09:21.667063
+time: 1726394961.667063
+validation loss: 0.0992
+
+epoch: 1, step: 74000/102506, loss: 0.1127, lr: 2e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 19:14:33.010624
+time: 1726395273.010624
+validation loss: 0.0995
+
+epoch: 1, step: 75000/102506, loss: 0.1125, lr: 2e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 19:19:43.868441
+time: 1726395583.868441
+validation loss: 0.0982
+
+epoch: 1, step: 76000/102506, loss: 0.1124, lr: 2e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 19:25:12.767687
+time: 1726395912.767687
+validation loss: 0.098
+
+epoch: 1, step: 77000/102506, loss: 0.1122, lr: 1e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 19:30:42.084672
+time: 1726396242.084672
+validation loss: 0.0988
+
+epoch: 1, step: 78000/102506, loss: 0.112, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 19:35:53.854584
+time: 1726396553.854584
+validation loss: 0.0977
+
+epoch: 1, step: 79000/102506, loss: 0.1118, lr: 1e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 19:41:23.491639
+time: 1726396883.491639
+validation loss: 0.0967
+
+epoch: 1, step: 80000/102506, loss: 0.1117, lr: 1e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 19:46:52.498140
+time: 1726397212.49814
+validation loss: 0.0979
+
+epoch: 1, step: 81000/102506, loss: 0.1115, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 19:52:04.712170
+time: 1726397524.71217
+validation loss: 0.0982
+
+epoch: 1, step: 82000/102506, loss: 0.1113, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 19:57:16.630970
+time: 1726397836.63097
+validation loss: 0.097
+
+epoch: 1, step: 83000/102506, loss: 0.1111, lr: 1e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 20:02:28.019588
+time: 1726398148.019588
+validation loss: 0.0973
+
+epoch: 1, step: 84000/102506, loss: 0.1109, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 20:07:41.067361
+time: 1726398461.067361
+validation loss: 0.0974
+
+epoch: 1, step: 85000/102506, loss: 0.1108, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 20:12:53.692686
+time: 1726398773.692686
+validation loss: 0.0968
+
+epoch: 1, step: 86000/102506, loss: 0.1106, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 20:18:07.641083
+time: 1726399087.641083
+validation loss: 0.0982
+
+epoch: 1, step: 87000/102506, loss: 0.1104, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-15 20:23:21.409576
+time: 1726399401.409576
+validation loss: 0.0969
+
+epoch: 1, step: 88000/102506, loss: 0.1103, lr: 0.0, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 20:28:32.191694
+time: 1726399712.191694
+validation loss: 0.097
+
+epoch: 1, step: 89000/102506, loss: 0.1101, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 20:33:43.416366
+time: 1726400023.416366
+validation loss: 0.0958
+
+epoch: 1, step: 90000/102506, loss: 0.1099, lr: 0.0, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 20:39:12.864772
+time: 1726400352.864772
+validation loss: 0.0963
+
+epoch: 1, step: 91000/102506, loss: 0.1097, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 20:44:24.562583
+time: 1726400664.562583
+validation loss: 0.0963
+
+epoch: 1, step: 92000/102506, loss: 0.1096, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 20:49:37.093323
+time: 1726400977.093323
+validation loss: 0.0962
+
+epoch: 1, step: 93000/102506, loss: 0.1094, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 20:54:48.178282
+time: 1726401288.178282
+validation loss: 0.0965
+
+epoch: 1, step: 94000/102506, loss: 0.1092, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 21:00:00.121060
+time: 1726401600.12106
+validation loss: 0.0967
+
+epoch: 1, step: 95000/102506, loss: 0.1091, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 21:05:11.976535
+time: 1726401911.976535
+validation loss: 0.0958
+
+epoch: 1, step: 96000/102506, loss: 0.1089, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 21:10:23.741429
+time: 1726402223.741429
+validation loss: 0.096
+
+epoch: 1, step: 97000/102506, loss: 0.1088, lr: 0.0, oom: 0, time: 312s
+start validation
+시간: 2024-09-15 21:15:36.016445
+time: 1726402536.016445
+validation loss: 0.0961
+
+epoch: 1, step: 98000/102506, loss: 0.1088, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 21:20:47.637587
+time: 1726402847.637587
+validation loss: 0.0962
+
+epoch: 1, step: 99000/102506, loss: 0.1087, lr: 0.0, oom: 0, time: 311s
+start validation
+시간: 2024-09-15 21:25:59.362040
+time: 1726403159.36204
+validation loss: 0.0964
+
+start validation
+시간: 2024-09-15 21:29:39.711475
+time: 1726403379.711475
+validation loss: 0.0965
+model parameters: 406025216
+save dir: ../../models/Java-finetuned-model/plbart-large-finetune/2/
+
+start data pre-processing
+시간: 2024-09-15 21:33:28.375721
+time: 1726403608.375721
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-15 21:38:13.096868
+time: 1726403893.096868
+
+epoch: 1, step: 0/102506, loss: 7.0648, lr: 1e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-15 21:38:14.210791
+time: 1726403894.210791
+validation loss: 5.7412
+
+epoch: 1, step: 1000/102506, loss: 0.22, lr: 1e-05, oom: 0, time: 315s
+start validation
+시간: 2024-09-15 21:43:29.411185
+time: 1726404209.411185
+validation loss: 0.1404
+
+epoch: 1, step: 2000/102506, loss: 0.179, lr: 1e-05, oom: 0, time: 330s
+start validation
+시간: 2024-09-15 21:48:59.761690
+time: 1726404539.76169
+validation loss: 0.1344
+
+epoch: 1, step: 3000/102506, loss: 0.1652, lr: 1e-05, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 21:54:28.145758
+time: 1726404868.145758
+validation loss: 0.1328
+
+epoch: 1, step: 4000/102506, loss: 0.1569, lr: 1e-05, oom: 0, time: 325s
+start validation
+시간: 2024-09-15 21:59:54.037567
+time: 1726405194.037567
+validation loss: 0.13
+
+epoch: 1, step: 5000/102506, loss: 0.1524, lr: 1e-05, oom: 0, time: 335s
+start validation
+시간: 2024-09-15 22:05:29.066638
+time: 1726405529.066638
+validation loss: 0.1262
+
+epoch: 1, step: 6000/102506, loss: 0.1467, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 22:10:56.142055
+time: 1726405856.142055
+validation loss: 0.1239
+
+epoch: 1, step: 7000/102506, loss: 0.1436, lr: 1e-05, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 22:16:24.494794
+time: 1726406184.494794
+validation loss: 0.1281
+
+epoch: 1, step: 8000/102506, loss: 0.142, lr: 1e-05, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 22:21:34.896351
+time: 1726406494.896351
+validation loss: 0.1315
+
+epoch: 1, step: 9000/102506, loss: 0.1403, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 22:26:44.708605
+time: 1726406804.708605
+validation loss: 0.1237
+
+epoch: 1, step: 10000/102506, loss: 0.138, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 22:32:11.846388
+time: 1726407131.846388
+validation loss: 0.1159
+
+epoch: 1, step: 11000/102506, loss: 0.1368, lr: 1e-05, oom: 0, time: 328s
+start validation
+시간: 2024-09-15 22:37:40.324954
+time: 1726407460.324954
+validation loss: 0.1212
+
+epoch: 1, step: 12000/102506, loss: 0.1367, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 22:42:50.313644
+time: 1726407770.313644
+validation loss: 0.1167
+
+epoch: 1, step: 13000/102506, loss: 0.136, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 22:48:00.094486
+time: 1726408080.094486
+validation loss: 0.1157
+
+epoch: 1, step: 14000/102506, loss: 0.1341, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-15 22:53:27.190432
+time: 1726408407.190432
+validation loss: 0.1157
+
+epoch: 1, step: 15000/102506, loss: 0.1327, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 22:58:37.105181
+time: 1726408717.105181
+validation loss: 0.1148
+
+epoch: 1, step: 16000/102506, loss: 0.1319, lr: 9e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-15 23:04:06.361175
+time: 1726409046.361175
+validation loss: 0.1149
+
+epoch: 1, step: 17000/102506, loss: 0.1312, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 23:09:16.843367
+time: 1726409356.843367
+validation loss: 0.1208
+
+epoch: 1, step: 18000/102506, loss: 0.1308, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 23:14:26.419950
+time: 1726409666.41995
+validation loss: 0.1129
+
+epoch: 1, step: 19000/102506, loss: 0.1299, lr: 9e-06, oom: 0, time: 326s
+start validation
+시간: 2024-09-15 23:19:52.967725
+time: 1726409992.967725
+validation loss: 0.1136
+
+epoch: 1, step: 20000/102506, loss: 0.129, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 23:25:03.122465
+time: 1726410303.122465
+validation loss: 0.1173
+
+epoch: 1, step: 21000/102506, loss: 0.1284, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 23:30:12.664583
+time: 1726410612.664583
+validation loss: 0.1175
+
+epoch: 1, step: 22000/102506, loss: 0.1278, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 23:35:22.675544
+time: 1726410922.675544
+validation loss: 0.1134
+
+epoch: 1, step: 23000/102506, loss: 0.1272, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-15 23:40:32.736897
+time: 1726411232.736897
+validation loss: 0.1126
+
+epoch: 1, step: 24000/102506, loss: 0.1268, lr: 9e-06, oom: 0, time: 326s
+start validation
+시간: 2024-09-15 23:45:59.603544
+time: 1726411559.603544
+validation loss: 0.1141
+
+epoch: 1, step: 25000/102506, loss: 0.1263, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 23:51:08.831554
+time: 1726411868.831554
+validation loss: 0.1351
+
+epoch: 1, step: 26000/102506, loss: 0.1257, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-15 23:56:18.638007
+time: 1726412178.638007
+validation loss: 0.108
+
+epoch: 1, step: 27000/102506, loss: 0.1253, lr: 8e-06, oom: 0, time: 326s
+start validation
+시간: 2024-09-16 00:01:45.189455
+time: 1726412505.189455
+validation loss: 0.1089
+
+epoch: 1, step: 28000/102506, loss: 0.125, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 00:06:55.139409
+time: 1726412815.139409
+validation loss: 0.1128
+
+epoch: 1, step: 29000/102506, loss: 0.1245, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 00:12:04.358444
+time: 1726413124.358444
+validation loss: 0.1108
+
+epoch: 1, step: 30000/102506, loss: 0.1241, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 00:17:15.043309
+time: 1726413435.043309
+validation loss: 0.1106
+
+epoch: 1, step: 31000/102506, loss: 0.1237, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 00:22:24.651997
+time: 1726413744.651997
+validation loss: 0.1136
+
+epoch: 1, step: 32000/102506, loss: 0.1234, lr: 8e-06, oom: 0, time: 308s
+start validation
+시간: 2024-09-16 00:27:33.629138
+time: 1726414053.629138
+validation loss: 0.1094
+
+epoch: 1, step: 33000/102506, loss: 0.1231, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 00:32:43.606195
+time: 1726414363.606195
+validation loss: 0.1094
+
+epoch: 1, step: 34000/102506, loss: 0.1227, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 00:37:54.194163
+time: 1726414674.194163
+validation loss: 0.1125
+
+epoch: 1, step: 35000/102506, loss: 0.1225, lr: 7e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 00:43:04.159504
+time: 1726414984.159504
+validation loss: 0.1091
+
+epoch: 1, step: 36000/102506, loss: 0.1223, lr: 7e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 00:48:13.432430
+time: 1726415293.43243
+validation loss: 0.1087
+
+start validation
+시간: 2024-09-16 00:51:52.724320
+time: 1726415512.72432
+validation loss: 0.1086
+model parameters: 406025216
+save dir: ../../models/Java-finetuned-model/plbart-large-finetune/3/
+
+start data pre-processing
+시간: 2024-09-16 00:55:40.793576
+time: 1726415740.793576
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-16 01:00:20.666834
+time: 1726416020.666834
+
+epoch: 1, step: 0/102506, loss: 10.1923, lr: 1e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-16 01:00:21.849164
+time: 1726416021.849164
+validation loss: 5.1523
+
+epoch: 1, step: 1000/102506, loss: 0.2221, lr: 1e-05, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 01:05:33.919443
+time: 1726416333.919443
+validation loss: 0.1482
+
+epoch: 1, step: 2000/102506, loss: 0.1815, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 01:11:00.995372
+time: 1726416660.995372
+validation loss: 0.1354
+
+epoch: 1, step: 3000/102506, loss: 0.1675, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 01:16:28.187991
+time: 1726416988.187991
+validation loss: 0.124
+
+epoch: 1, step: 4000/102506, loss: 0.1574, lr: 1e-05, oom: 0, time: 326s
+start validation
+시간: 2024-09-16 01:21:54.645599
+time: 1726417314.645599
+validation loss: 0.1294
+
+epoch: 1, step: 5000/102506, loss: 0.1515, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 01:27:04.219157
+time: 1726417624.219157
+validation loss: 0.1299
+
+epoch: 1, step: 6000/102506, loss: 0.1486, lr: 1e-05, oom: 0, time: 311s
+start validation
+시간: 2024-09-16 01:32:15.410559
+time: 1726417935.410559
+validation loss: 0.1315
+
+epoch: 1, step: 7000/102506, loss: 0.1473, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 01:37:25.322381
+time: 1726418245.322381
+validation loss: 0.1205
+
+epoch: 1, step: 8000/102506, loss: 0.1464, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 01:42:52.642298
+time: 1726418572.642298
+validation loss: 0.1183
+
+epoch: 1, step: 9000/102506, loss: 0.1433, lr: 1e-05, oom: 0, time: 328s
+start validation
+시간: 2024-09-16 01:48:20.782232
+time: 1726418900.782232
+validation loss: 0.1152
+
+epoch: 1, step: 10000/102506, loss: 0.1405, lr: 1e-05, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 01:53:47.970343
+time: 1726419227.970343
+validation loss: 0.1193
+
+epoch: 1, step: 11000/102506, loss: 0.1391, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 01:58:57.724600
+time: 1726419537.7246
+validation loss: 0.1161
+
+epoch: 1, step: 12000/102506, loss: 0.1372, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 02:04:07.387573
+time: 1726419847.387573
+validation loss: 0.119
+
+epoch: 1, step: 13000/102506, loss: 0.1364, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 02:09:17.120812
+time: 1726420157.120812
+validation loss: 0.1169
+
+epoch: 1, step: 14000/102506, loss: 0.135, lr: 1e-05, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 02:14:27.120575
+time: 1726420467.120575
+validation loss: 0.1214
+
+epoch: 1, step: 15000/102506, loss: 0.1349, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 02:19:37.809167
+time: 1726420777.809167
+validation loss: 0.1177
+
+epoch: 1, step: 16000/102506, loss: 0.1339, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 02:24:48.236551
+time: 1726421088.236551
+validation loss: 0.1181
+
+epoch: 1, step: 17000/102506, loss: 0.133, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 02:29:58.700010
+time: 1726421398.70001
+validation loss: 0.1198
+
+epoch: 1, step: 18000/102506, loss: 0.1325, lr: 9e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-16 02:35:10.305451
+time: 1726421710.305451
+validation loss: 0.1141
+
+epoch: 1, step: 19000/102506, loss: 0.1318, lr: 9e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 02:40:37.500492
+time: 1726422037.500492
+validation loss: 0.119
+
+epoch: 1, step: 20000/102506, loss: 0.1311, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 02:45:46.983368
+time: 1726422346.983368
+validation loss: 0.113
+
+epoch: 1, step: 21000/102506, loss: 0.1305, lr: 9e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 02:51:14.758287
+time: 1726422674.758287
+validation loss: 0.1125
+
+epoch: 1, step: 22000/102506, loss: 0.1303, lr: 9e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-16 02:56:43.099339
+time: 1726423003.099339
+validation loss: 0.1143
+
+epoch: 1, step: 23000/102506, loss: 0.1296, lr: 9e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 03:01:53.906595
+time: 1726423313.906595
+validation loss: 0.1187
+
+epoch: 1, step: 24000/102506, loss: 0.129, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 03:07:03.026762
+time: 1726423623.026762
+validation loss: 0.1131
+
+epoch: 1, step: 25000/102506, loss: 0.1288, lr: 9e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 03:12:12.298192
+time: 1726423932.298192
+validation loss: 0.1152
+
+epoch: 1, step: 26000/102506, loss: 0.1279, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 03:17:22.530213
+time: 1726424242.530213
+validation loss: 0.1136
+
+epoch: 1, step: 27000/102506, loss: 0.1272, lr: 8e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 03:22:32.007565
+time: 1726424552.007565
+validation loss: 0.1099
+
+epoch: 1, step: 28000/102506, loss: 0.1266, lr: 8e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 03:27:59.153964
+time: 1726424879.153964
+validation loss: 0.1147
+
+epoch: 1, step: 29000/102506, loss: 0.1264, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 03:33:09.598048
+time: 1726425189.598048
+validation loss: 0.1107
+
+epoch: 1, step: 30000/102506, loss: 0.1257, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 03:38:19.899531
+time: 1726425499.899531
+validation loss: 0.112
+
+epoch: 1, step: 31000/102506, loss: 0.1252, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 03:43:30.599285
+time: 1726425810.599285
+validation loss: 0.1097
+
+epoch: 1, step: 32000/102506, loss: 0.1249, lr: 8e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 03:48:58.131941
+time: 1726426138.131941
+validation loss: 0.1209
+
+epoch: 1, step: 33000/102506, loss: 0.1244, lr: 8e-06, oom: 0, time: 308s
+start validation
+시간: 2024-09-16 03:54:06.581549
+time: 1726426446.581549
+validation loss: 0.1109
+
+epoch: 1, step: 34000/102506, loss: 0.1241, lr: 8e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 03:59:16.858607
+time: 1726426756.858607
+validation loss: 0.1073
+
+epoch: 1, step: 35000/102506, loss: 0.1239, lr: 7e-06, oom: 0, time: 327s
+start validation
+시간: 2024-09-16 04:04:44.141226
+time: 1726427084.141226
+validation loss: 0.1093
+
+epoch: 1, step: 36000/102506, loss: 0.1235, lr: 7e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 04:09:54.533953
+time: 1726427394.533953
+validation loss: 0.108
+
+epoch: 1, step: 37000/102506, loss: 0.1231, lr: 7e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 04:15:04.451262
+time: 1726427704.451262
+validation loss: 0.1074
+
+epoch: 1, step: 38000/102506, loss: 0.1226, lr: 7e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 04:20:14.334182
+time: 1726428014.334182
+validation loss: 0.108
+
+epoch: 1, step: 39000/102506, loss: 0.1222, lr: 7e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 04:25:23.957806
+time: 1726428323.957806
+validation loss: 0.1075
+
+epoch: 1, step: 40000/102506, loss: 0.1219, lr: 7e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 04:30:34.421397
+time: 1726428634.421397
+validation loss: 0.1065
+
+epoch: 1, step: 41000/102506, loss: 0.1217, lr: 7e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-16 04:36:03.323929
+time: 1726428963.323929
+validation loss: 0.1076
+
+epoch: 1, step: 42000/102506, loss: 0.1214, lr: 6e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 04:41:13.737530
+time: 1726429273.73753
+validation loss: 0.1069
+
+epoch: 1, step: 43000/102506, loss: 0.1209, lr: 6e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 04:46:23.631038
+time: 1726429583.631038
+validation loss: 0.1061
+
+epoch: 1, step: 44000/102506, loss: 0.1206, lr: 6e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-16 04:51:52.782923
+time: 1726429912.782923
+validation loss: 0.1035
+
+epoch: 1, step: 45000/102506, loss: 0.1202, lr: 6e-06, oom: 0, time: 328s
+start validation
+시간: 2024-09-16 04:57:21.503040
+time: 1726430241.50304
+validation loss: 0.11
+
+epoch: 1, step: 46000/102506, loss: 0.1201, lr: 6e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 05:02:31.596069
+time: 1726430551.596069
+validation loss: 0.1058
+
+epoch: 1, step: 47000/102506, loss: 0.1198, lr: 6e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 05:07:42.096513
+time: 1726430862.096513
+validation loss: 0.1037
+
+epoch: 1, step: 48000/102506, loss: 0.1196, lr: 5e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 05:12:51.370457
+time: 1726431171.370457
+validation loss: 0.1059
+
+epoch: 1, step: 49000/102506, loss: 0.1194, lr: 5e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 05:18:01.302637
+time: 1726431481.302637
+validation loss: 0.117
+
+epoch: 1, step: 50000/102506, loss: 0.1191, lr: 5e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 05:23:11.084887
+time: 1726431791.084887
+validation loss: 0.1052
+
+epoch: 1, step: 51000/102506, loss: 0.1189, lr: 5e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 05:28:20.618896
+time: 1726432100.618896
+validation loss: 0.1038
+
+epoch: 1, step: 52000/102506, loss: 0.1187, lr: 5e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 05:33:31.211906
+time: 1726432411.211906
+validation loss: 0.1041
+
+epoch: 1, step: 53000/102506, loss: 0.1184, lr: 5e-06, oom: 0, time: 310s
+start validation
+시간: 2024-09-16 05:38:41.492885
+time: 1726432721.492885
+validation loss: 0.1036
+
+epoch: 1, step: 54000/102506, loss: 0.1182, lr: 5e-06, oom: 0, time: 309s
+start validation
+시간: 2024-09-16 05:43:51.362535
+time: 1726433031.362535
+validation loss: 0.1043
+
+start validation
+시간: 2024-09-16 05:47:30.933552
+time: 1726433250.933552
+validation loss: 0.1042
+model parameters: 406025216
+save dir: ../../models/Java-finetuned-model/plbart-large-finetune/4/
+
+start data pre-processing
+시간: 2024-09-16 05:51:18.865123
+time: 1726433478.865123
+finish loading: 10000 data size: 23300
+finish loading: 20000 data size: 47935
+finish loading: 30000 data size: 71166
+finish loading: 40000 data size: 94800
+finish loading: 50000 data size: 117906
+finish loading: 60000 data size: 141958
+finish loading: 70000 data size: 166018
+finish loading: 80000 data size: 189960
+finish loading: 90000 data size: 213842
+finish loading: 100000 data size: 238100
+finish loading: 110000 data size: 261828
+finish loading: 120000 data size: 285380
+long inputs: 73188
+../../data/finetune_training.jsonl total size: 307516
+finish loading: 10000 data size: 23614
+long inputs: 7984
+../../data/finetune_validation.jsonl total size: 34189
+finish data pre-processing
+시간: 2024-09-16 05:56:02.352953
+time: 1726433762.352953
+
+epoch: 1, step: 0/102506, loss: 11.3795, lr: 1e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-16 05:56:03.526043
+time: 1726433763.526043
+validation loss: 5.7474
+
+epoch: 1, step: 1000/102506, loss: 0.2237, lr: 1e-05, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 06:01:16.396504
+time: 1726434076.396504
+validation loss: 0.1502
+
+epoch: 1, step: 2000/102506, loss: 0.1828, lr: 1e-05, oom: 0, time: 334s
+start validation
+시간: 2024-09-16 06:06:50.587861
+time: 1726434410.587861
+validation loss: 0.1303
+
+epoch: 1, step: 3000/102506, loss: 0.1662, lr: 1e-05, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 06:12:21.292559
+time: 1726434741.292559
+validation loss: 0.1284
+
+epoch: 1, step: 4000/102506, loss: 0.1575, lr: 1e-05, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 06:17:52.959440
+time: 1726435072.95944
+validation loss: 0.1284
+
+epoch: 1, step: 5000/102506, loss: 0.152, lr: 1e-05, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 06:23:05.849237
+time: 1726435385.849237
+validation loss: 0.1385
+
+epoch: 1, step: 6000/102506, loss: 0.1486, lr: 1e-05, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 06:28:18.630539
+time: 1726435698.630539
+validation loss: 0.1257
+
+epoch: 1, step: 7000/102506, loss: 0.1455, lr: 1e-05, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 06:33:50.081797
+time: 1726436030.081797
+validation loss: 0.1253
+
+epoch: 1, step: 8000/102506, loss: 0.1445, lr: 1e-05, oom: 0, time: 332s
+start validation
+시간: 2024-09-16 06:39:22.781182
+time: 1726436362.781182
+validation loss: 0.1225
+
+epoch: 1, step: 9000/102506, loss: 0.1422, lr: 1e-05, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 06:44:53.550237
+time: 1726436693.550237
+validation loss: 0.1244
+
+epoch: 1, step: 10000/102506, loss: 0.14, lr: 1e-05, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 06:50:07.177377
+time: 1726437007.177377
+validation loss: 0.1178
+
+epoch: 1, step: 11000/102506, loss: 0.1383, lr: 1e-05, oom: 0, time: 332s
+start validation
+시간: 2024-09-16 06:55:39.434786
+time: 1726437339.434786
+validation loss: 0.1166
+
+epoch: 1, step: 12000/102506, loss: 0.1366, lr: 1e-05, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 07:01:11.037048
+time: 1726437671.037048
+validation loss: 0.1163
+
+epoch: 1, step: 13000/102506, loss: 0.1353, lr: 1e-05, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 07:06:42.831607
+time: 1726438002.831607
+validation loss: 0.1185
+
+epoch: 1, step: 14000/102506, loss: 0.1338, lr: 1e-05, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 07:11:55.828724
+time: 1726438315.828724
+validation loss: 0.1189
+
+epoch: 1, step: 15000/102506, loss: 0.1325, lr: 9e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 07:17:09.297588
+time: 1726438629.297588
+validation loss: 0.1161
+
+epoch: 1, step: 16000/102506, loss: 0.1314, lr: 9e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 07:22:40.976088
+time: 1726438960.976088
+validation loss: 0.1134
+
+epoch: 1, step: 17000/102506, loss: 0.1306, lr: 9e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 07:28:12.063936
+time: 1726439292.063936
+validation loss: 0.1143
+
+epoch: 1, step: 18000/102506, loss: 0.1297, lr: 9e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 07:33:25.255600
+time: 1726439605.2556
+validation loss: 0.1142
+
+epoch: 1, step: 19000/102506, loss: 0.1293, lr: 9e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 07:38:38.577579
+time: 1726439918.577579
+validation loss: 0.1191
+
+epoch: 1, step: 20000/102506, loss: 0.1282, lr: 9e-06, oom: 0, time: 315s
+start validation
+시간: 2024-09-16 07:43:54.443263
+time: 1726440234.443263
+validation loss: 0.1175
+
+epoch: 1, step: 21000/102506, loss: 0.1277, lr: 9e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 07:49:07.057424
+time: 1726440547.057424
+validation loss: 0.1131
+
+epoch: 1, step: 22000/102506, loss: 0.1272, lr: 9e-06, oom: 0, time: 332s
+start validation
+시간: 2024-09-16 07:54:39.368125
+time: 1726440879.368125
+validation loss: 0.1127
+
+epoch: 1, step: 23000/102506, loss: 0.1269, lr: 9e-06, oom: 0, time: 332s
+start validation
+시간: 2024-09-16 08:00:11.386440
+time: 1726441211.38644
+validation loss: 0.1146
+
+epoch: 1, step: 24000/102506, loss: 0.1261, lr: 9e-06, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 08:05:25.719564
+time: 1726441525.719564
+validation loss: 0.1104
+
+epoch: 1, step: 25000/102506, loss: 0.1255, lr: 9e-06, oom: 0, time: 332s
+start validation
+시간: 2024-09-16 08:10:58.157402
+time: 1726441858.157402
+validation loss: 0.1134
+
+epoch: 1, step: 26000/102506, loss: 0.125, lr: 8e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 08:16:11.344970
+time: 1726442171.34497
+validation loss: 0.1095
+
+epoch: 1, step: 27000/102506, loss: 0.1244, lr: 8e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 08:21:42.215988
+time: 1726442502.215988
+validation loss: 0.1109
+
+epoch: 1, step: 28000/102506, loss: 0.1241, lr: 8e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 08:26:56.105493
+time: 1726442816.105493
+validation loss: 0.1111
+
+epoch: 1, step: 29000/102506, loss: 0.1238, lr: 8e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 08:32:09.158706
+time: 1726443129.158706
+validation loss: 0.1096
+
+epoch: 1, step: 30000/102506, loss: 0.1235, lr: 8e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 08:37:22.916855
+time: 1726443442.916855
+validation loss: 0.108
+
+epoch: 1, step: 31000/102506, loss: 0.1233, lr: 8e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 08:42:54.447618
+time: 1726443774.447618
+validation loss: 0.1082
+
+epoch: 1, step: 32000/102506, loss: 0.1228, lr: 8e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 08:48:07.458745
+time: 1726444087.458745
+validation loss: 0.1077
+
+epoch: 1, step: 33000/102506, loss: 0.1227, lr: 8e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 08:53:38.019990
+time: 1726444418.01999
+validation loss: 0.1097
+
+epoch: 1, step: 34000/102506, loss: 0.1225, lr: 8e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 08:58:50.913825
+time: 1726444730.913825
+validation loss: 0.1082
+
+epoch: 1, step: 35000/102506, loss: 0.1222, lr: 7e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 09:04:03.727669
+time: 1726445043.727669
+validation loss: 0.1076
+
+epoch: 1, step: 36000/102506, loss: 0.1219, lr: 7e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 09:09:34.357182
+time: 1726445374.357182
+validation loss: 0.1081
+
+epoch: 1, step: 37000/102506, loss: 0.1215, lr: 7e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 09:14:47.348127
+time: 1726445687.348127
+validation loss: 0.1081
+
+epoch: 1, step: 38000/102506, loss: 0.1212, lr: 7e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 09:19:59.653817
+time: 1726445999.653817
+validation loss: 0.1092
+
+epoch: 1, step: 39000/102506, loss: 0.1208, lr: 7e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 09:25:11.908929
+time: 1726446311.908929
+validation loss: 0.1071
+
+epoch: 1, step: 40000/102506, loss: 0.1206, lr: 7e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 09:30:42.785225
+time: 1726446642.785225
+validation loss: 0.1076
+
+epoch: 1, step: 41000/102506, loss: 0.1202, lr: 7e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 09:35:56.088240
+time: 1726446956.08824
+validation loss: 0.1061
+
+epoch: 1, step: 42000/102506, loss: 0.1198, lr: 6e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-16 09:41:25.757330
+time: 1726447285.75733
+validation loss: 0.1058
+
+epoch: 1, step: 43000/102506, loss: 0.1195, lr: 6e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 09:46:57.401407
+time: 1726447617.401407
+validation loss: 0.1167
+
+epoch: 1, step: 44000/102506, loss: 0.1191, lr: 6e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 09:52:09.765277
+time: 1726447929.765277
+validation loss: 0.1093
+
+epoch: 1, step: 45000/102506, loss: 0.1189, lr: 6e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 09:57:22.996012
+time: 1726448242.996012
+validation loss: 0.1049
+
+epoch: 1, step: 46000/102506, loss: 0.1185, lr: 6e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-16 10:02:52.953487
+time: 1726448572.953487
+validation loss: 0.1117
+
+epoch: 1, step: 47000/102506, loss: 0.1182, lr: 6e-06, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 10:08:07.071578
+time: 1726448887.071578
+validation loss: 0.1072
+
+epoch: 1, step: 48000/102506, loss: 0.1181, lr: 5e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 10:13:20.072772
+time: 1726449200.072772
+validation loss: 0.1037
+
+epoch: 1, step: 49000/102506, loss: 0.1179, lr: 5e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 10:18:50.987158
+time: 1726449530.987158
+validation loss: 0.109
+
+epoch: 1, step: 50000/102506, loss: 0.1178, lr: 5e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 10:24:03.882107
+time: 1726449843.882107
+validation loss: 0.1038
+
+epoch: 1, step: 51000/102506, loss: 0.1175, lr: 5e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 10:29:16.566675
+time: 1726450156.566675
+validation loss: 0.1059
+
+epoch: 1, step: 52000/102506, loss: 0.1172, lr: 5e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-16 10:34:28.552621
+time: 1726450468.552621
+validation loss: 0.1025
+
+epoch: 1, step: 53000/102506, loss: 0.1169, lr: 5e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 10:39:59.704269
+time: 1726450799.704269
+validation loss: 0.1024
+
+epoch: 1, step: 54000/102506, loss: 0.1167, lr: 5e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 10:45:30.826824
+time: 1726451130.826824
+validation loss: 0.1054
+
+epoch: 1, step: 55000/102506, loss: 0.1165, lr: 4e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 10:50:43.768233
+time: 1726451443.768233
+validation loss: 0.102
+
+epoch: 1, step: 56000/102506, loss: 0.1163, lr: 4e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 10:56:13.946628
+time: 1726451773.946628
+validation loss: 0.1023
+
+epoch: 1, step: 57000/102506, loss: 0.1161, lr: 4e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 11:01:26.732627
+time: 1726452086.732627
+validation loss: 0.1021
+
+epoch: 1, step: 58000/102506, loss: 0.1158, lr: 4e-06, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 11:06:41.149268
+time: 1726452401.149268
+validation loss: 0.1051
+
+epoch: 1, step: 59000/102506, loss: 0.1155, lr: 4e-06, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 11:11:55.269909
+time: 1726452715.269909
+validation loss: 0.1039
+
+epoch: 1, step: 60000/102506, loss: 0.1153, lr: 4e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 11:17:07.681692
+time: 1726453027.681692
+validation loss: 0.1012
+
+epoch: 1, step: 61000/102506, loss: 0.1151, lr: 4e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 11:22:38.805032
+time: 1726453358.805032
+validation loss: 0.1018
+
+epoch: 1, step: 62000/102506, loss: 0.1149, lr: 3e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 11:27:50.989974
+time: 1726453670.989974
+validation loss: 0.1005
+
+epoch: 1, step: 63000/102506, loss: 0.1145, lr: 3e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 11:33:21.916843
+time: 1726454001.916843
+validation loss: 0.1025
+
+epoch: 1, step: 64000/102506, loss: 0.1143, lr: 3e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 11:38:35.762163
+time: 1726454315.762163
+validation loss: 0.1016
+
+epoch: 1, step: 65000/102506, loss: 0.1141, lr: 3e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 11:43:48.654547
+time: 1726454628.654547
+validation loss: 0.099
+
+epoch: 1, step: 66000/102506, loss: 0.1139, lr: 3e-06, oom: 0, time: 332s
+start validation
+시간: 2024-09-16 11:49:20.719210
+time: 1726454960.71921
+validation loss: 0.1003
+
+epoch: 1, step: 67000/102506, loss: 0.1137, lr: 3e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 11:54:34.199081
+time: 1726455274.199081
+validation loss: 0.0998
+
+epoch: 1, step: 68000/102506, loss: 0.1135, lr: 3e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 11:59:46.403903
+time: 1726455586.403903
+validation loss: 0.1002
+
+epoch: 1, step: 69000/102506, loss: 0.1134, lr: 2e-06, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 12:05:00.699848
+time: 1726455900.699848
+validation loss: 0.1021
+
+epoch: 1, step: 70000/102506, loss: 0.1132, lr: 2e-06, oom: 0, time: 311s
+start validation
+시간: 2024-09-16 12:10:12.428127
+time: 1726456212.428127
+validation loss: 0.0993
+
+epoch: 1, step: 71000/102506, loss: 0.1131, lr: 2e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 12:15:25.955529
+time: 1726456525.955529
+validation loss: 0.0988
+
+epoch: 1, step: 72000/102506, loss: 0.1129, lr: 2e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 12:20:57.520651
+time: 1726456857.520651
+validation loss: 0.0989
+
+epoch: 1, step: 73000/102506, loss: 0.1127, lr: 2e-06, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 12:26:11.663949
+time: 1726457171.663949
+validation loss: 0.0986
+
+epoch: 1, step: 74000/102506, loss: 0.1126, lr: 2e-06, oom: 0, time: 329s
+start validation
+시간: 2024-09-16 12:31:41.304975
+time: 1726457501.304975
+validation loss: 0.0985
+
+epoch: 1, step: 75000/102506, loss: 0.1124, lr: 2e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 12:37:12.695874
+time: 1726457832.695874
+validation loss: 0.0976
+
+epoch: 1, step: 76000/102506, loss: 0.1123, lr: 2e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 12:42:44.502625
+time: 1726458164.502625
+validation loss: 0.0983
+
+epoch: 1, step: 77000/102506, loss: 0.112, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 12:47:56.921791
+time: 1726458476.921791
+validation loss: 0.0985
+
+epoch: 1, step: 78000/102506, loss: 0.1118, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 12:53:09.848457
+time: 1726458789.848457
+validation loss: 0.0976
+
+epoch: 1, step: 79000/102506, loss: 0.1117, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 12:58:23.360269
+time: 1726459103.360269
+validation loss: 0.098
+
+epoch: 1, step: 80000/102506, loss: 0.1115, lr: 1e-06, oom: 0, time: 312s
+start validation
+시간: 2024-09-16 13:03:36.094498
+time: 1726459416.094498
+validation loss: 0.0987
+
+epoch: 1, step: 81000/102506, loss: 0.1114, lr: 1e-06, oom: 0, time: 315s
+start validation
+시간: 2024-09-16 13:08:51.912314
+time: 1726459731.912314
+validation loss: 0.097
+
+epoch: 1, step: 82000/102506, loss: 0.1113, lr: 1e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 13:14:23.385225
+time: 1726460063.385225
+validation loss: 0.097
+
+epoch: 1, step: 83000/102506, loss: 0.1112, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 13:19:36.977610
+time: 1726460376.97761
+validation loss: 0.0969
+
+epoch: 1, step: 84000/102506, loss: 0.111, lr: 1e-06, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 13:25:07.477815
+time: 1726460707.477815
+validation loss: 0.097
+
+epoch: 1, step: 85000/102506, loss: 0.1108, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 13:30:20.889030
+time: 1726461020.88903
+validation loss: 0.0969
+
+epoch: 1, step: 86000/102506, loss: 0.1106, lr: 1e-06, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 13:35:34.712697
+time: 1726461334.712697
+validation loss: 0.0965
+
+epoch: 1, step: 87000/102506, loss: 0.1104, lr: 1e-06, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 13:41:06.288268
+time: 1726461666.288268
+validation loss: 0.0969
+
+epoch: 1, step: 88000/102506, loss: 0.1103, lr: 0.0, oom: 0, time: 315s
+start validation
+시간: 2024-09-16 13:46:22.137216
+time: 1726461982.137216
+validation loss: 0.097
+
+epoch: 1, step: 89000/102506, loss: 0.1102, lr: 0.0, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 13:51:36.304595
+time: 1726462296.304595
+validation loss: 0.0963
+
+epoch: 1, step: 90000/102506, loss: 0.11, lr: 0.0, oom: 0, time: 330s
+start validation
+시간: 2024-09-16 13:57:06.766052
+time: 1726462626.766052
+validation loss: 0.0965
+
+epoch: 1, step: 91000/102506, loss: 0.1098, lr: 0.0, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 14:02:20.484061
+time: 1726462940.484061
+validation loss: 0.0967
+
+epoch: 1, step: 92000/102506, loss: 0.1097, lr: 0.0, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 14:07:35.203622
+time: 1726463255.203622
+validation loss: 0.0964
+
+epoch: 1, step: 93000/102506, loss: 0.1095, lr: 0.0, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 14:12:49.880904
+time: 1726463569.880904
+validation loss: 0.097
+
+epoch: 1, step: 94000/102506, loss: 0.1093, lr: 0.0, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 14:18:03.649001
+time: 1726463883.649001
+validation loss: 0.0968
+
+epoch: 1, step: 95000/102506, loss: 0.1092, lr: 0.0, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 14:23:17.705566
+time: 1726464197.705566
+validation loss: 0.0961
+
+epoch: 1, step: 96000/102506, loss: 0.1091, lr: 0.0, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 14:28:49.440252
+time: 1726464529.440252
+validation loss: 0.0964
+
+epoch: 1, step: 97000/102506, loss: 0.109, lr: 0.0, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 14:34:03.371408
+time: 1726464843.371408
+validation loss: 0.0963
+
+epoch: 1, step: 98000/102506, loss: 0.1088, lr: 0.0, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 14:39:17.361225
+time: 1726465157.361225
+validation loss: 0.0964
+
+epoch: 1, step: 99000/102506, loss: 0.1087, lr: 0.0, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 14:44:31.263966
+time: 1726465471.263966
+validation loss: 0.0962
+
+epoch: 1, step: 100000/102506, loss: 0.1085, lr: 0.0, oom: 0, time: 314s
+start validation
+시간: 2024-09-16 14:49:45.502826
+time: 1726465785.502826
+validation loss: 0.096
+
+epoch: 1, step: 101000/102506, loss: 0.1084, lr: 0.0, oom: 0, time: 331s
+start validation
+시간: 2024-09-16 14:55:16.902982
+time: 1726466116.902982
+validation loss: 0.0963
+
+epoch: 1, step: 102000/102506, loss: 0.1083, lr: 0.0, oom: 0, time: 313s
+start validation
+시간: 2024-09-16 15:00:30.142766
+time: 1726466430.142766
+validation loss: 0.0964
+
+start validation
+시간: 2024-09-16 15:04:58.864493
+time: 1726466698.864493
+validation loss: 0.0965

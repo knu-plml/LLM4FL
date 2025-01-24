@@ -1,0 +1,215 @@
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.decoder.bias', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Python-finetuned-model/graphcodebert-base-finetune/0/
+
+start data pre-processing
+시간: 2024-09-29 12:59:11.761369
+time: 1727582351.761369
+finish loading: 20000 data size: 12355
+finish loading: 40000 data size: 24894
+finish loading: 60000 data size: 34565
+finish loading: 80000 data size: 47233
+long inputs: 0
+../../data/codeNetPython.jsonl total size: 66291
+finish data pre-processing
+시간: 2024-09-29 13:00:41.232643
+time: 1727582441.232643
+
+epoch: 1, step: 0/2652, loss: 11.2924, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 13:00:42.374414
+time: 1727582442.374414
+validation loss: 6.4419
+
+epoch: 1, step: 1000/2652, loss: 1.3822, lr: 6.9e-05, oom: 0, time: 296s
+start validation
+시간: 2024-09-29 13:05:39.000212
+time: 1727582739.000212
+validation loss: 1.1686
+
+epoch: 1, step: 2000/2652, loss: 1.0617, lr: 1.4e-05, oom: 0, time: 296s
+start validation
+시간: 2024-09-29 13:10:35.854781
+time: 1727583035.854781
+validation loss: 0.8638
+
+start validation
+시간: 2024-09-29 13:14:00.666712
+time: 1727583240.666712
+validation loss: 0.8329
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.bias', 'lm_head.dense.bias', 'lm_head.decoder.bias', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight', 'lm_head.decoder.weight', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Python-finetuned-model/graphcodebert-base-finetune/1/
+
+start data pre-processing
+시간: 2024-09-29 13:14:39.290622
+time: 1727583279.290622
+finish loading: 20000 data size: 12355
+finish loading: 40000 data size: 24894
+finish loading: 60000 data size: 34565
+finish loading: 80000 data size: 47233
+long inputs: 0
+../../data/codeNetPython.jsonl total size: 66291
+finish data pre-processing
+시간: 2024-09-29 13:16:12.374359
+time: 1727583372.374359
+
+epoch: 1, step: 0/2652, loss: 11.9128, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 13:16:13.519749
+time: 1727583373.519749
+validation loss: 6.8025
+
+epoch: 1, step: 1000/2652, loss: 1.4118, lr: 6.9e-05, oom: 0, time: 295s
+start validation
+시간: 2024-09-29 13:21:09.439391
+time: 1727583669.439391
+validation loss: 1.2119
+
+epoch: 1, step: 2000/2652, loss: 1.0747, lr: 1.4e-05, oom: 0, time: 296s
+start validation
+시간: 2024-09-29 13:26:05.726484
+time: 1727583965.726484
+validation loss: 0.8875
+
+start validation
+시간: 2024-09-29 13:29:30.240906
+time: 1727584170.240906
+validation loss: 0.8503
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.layer_norm.weight', 'lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.decoder.bias', 'lm_head.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Python-finetuned-model/graphcodebert-base-finetune/2/
+
+start data pre-processing
+시간: 2024-09-29 13:30:18.461605
+time: 1727584218.461605
+finish loading: 20000 data size: 12355
+finish loading: 40000 data size: 24894
+finish loading: 60000 data size: 34565
+finish loading: 80000 data size: 47233
+long inputs: 0
+../../data/codeNetPython.jsonl total size: 66291
+finish data pre-processing
+시간: 2024-09-29 13:31:47.716685
+time: 1727584307.716685
+
+epoch: 1, step: 0/2652, loss: 12.0273, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 13:31:48.880796
+time: 1727584308.880796
+validation loss: 7.0473
+
+epoch: 1, step: 1000/2652, loss: 1.3945, lr: 6.9e-05, oom: 0, time: 296s
+start validation
+시간: 2024-09-29 13:36:45.221737
+time: 1727584605.221737
+validation loss: 1.1881
+
+epoch: 1, step: 2000/2652, loss: 1.0589, lr: 1.4e-05, oom: 0, time: 297s
+start validation
+시간: 2024-09-29 13:41:42.576412
+time: 1727584902.576412
+validation loss: 0.8549
+
+start validation
+시간: 2024-09-29 13:45:07.117632
+time: 1727585107.117632
+validation loss: 0.8233
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.decoder.bias', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight', 'lm_head.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Python-finetuned-model/graphcodebert-base-finetune/3/
+
+start data pre-processing
+시간: 2024-09-29 13:45:45.691419
+time: 1727585145.691419
+finish loading: 20000 data size: 12355
+finish loading: 40000 data size: 24894
+finish loading: 60000 data size: 34565
+finish loading: 80000 data size: 47233
+long inputs: 0
+../../data/codeNetPython.jsonl total size: 66291
+finish data pre-processing
+시간: 2024-09-29 13:47:19.568978
+time: 1727585239.568978
+
+epoch: 1, step: 0/2652, loss: 11.4146, lr: 0.0001, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 13:47:20.901623
+time: 1727585240.901623
+validation loss: 6.6274
+
+epoch: 1, step: 1000/2652, loss: 1.3989, lr: 6.9e-05, oom: 0, time: 296s
+start validation
+시간: 2024-09-29 13:52:16.983704
+time: 1727585536.983704
+validation loss: 1.1614
+
+epoch: 1, step: 2000/2652, loss: 1.067, lr: 1.4e-05, oom: 0, time: 296s
+start validation
+시간: 2024-09-29 13:57:13.656052
+time: 1727585833.656052
+validation loss: 0.8763
+
+start validation
+시간: 2024-09-29 14:00:38.854542
+time: 1727586038.854542
+validation loss: 0.8352
+Some weights of the model checkpoint at ../../models/graphcodebert-base were not used when initializing RobertaModel: ['lm_head.dense.bias', 'lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.weight', 'lm_head.decoder.bias', 'lm_head.layer_norm.bias', 'lm_head.decoder.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at ../../models/graphcodebert-base and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model parameters: 172503552
+save dir: ../../models/Python-finetuned-model/graphcodebert-base-finetune/4/
+
+start data pre-processing
+시간: 2024-09-29 14:01:17.404123
+time: 1727586077.404123
+finish loading: 20000 data size: 12355
+finish loading: 40000 data size: 24894
+finish loading: 60000 data size: 34565
+finish loading: 80000 data size: 47233
+long inputs: 0
+../../data/codeNetPython.jsonl total size: 66291
+finish data pre-processing
+시간: 2024-09-29 14:02:58.310670
+time: 1727586178.31067
+
+epoch: 1, step: 0/2652, loss: 11.8289, lr: 0.0001, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 14:02:59.297556
+time: 1727586179.297556
+validation loss: 6.9933
+
+epoch: 1, step: 1000/2652, loss: 1.4097, lr: 6.9e-05, oom: 0, time: 298s
+start validation
+시간: 2024-09-29 14:07:57.341598
+time: 1727586477.341598
+validation loss: 1.1883
+
+epoch: 1, step: 2000/2652, loss: 1.0792, lr: 1.4e-05, oom: 0, time: 297s
+start validation
+시간: 2024-09-29 14:12:54.844327
+time: 1727586774.844327
+validation loss: 0.8729
+
+start validation
+시간: 2024-09-29 14:16:19.357405
+time: 1727586979.357405
+validation loss: 0.8496

@@ -1,0 +1,110 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (2421 > 2048). Running this sequence through the model will result in indexing errors
+model parameters: 2779356160
+save dir: ../../models/Java-finetuned-model/codegen-2B-finetune/4/
+
+start data pre-processing
+시간: 2024-09-27 16:00:09.690755
+time: 1727420409.690755
+finish loading: 10000 data size: 28837
+finish loading: 20000 data size: 59039
+finish loading: 30000 data size: 87972
+finish loading: 40000 data size: 117066
+finish loading: 50000 data size: 145946
+finish loading: 60000 data size: 175783
+finish loading: 70000 data size: 205493
+finish loading: 80000 data size: 235081
+finish loading: 90000 data size: 264595
+finish loading: 100000 data size: 294431
+finish loading: 110000 data size: 323665
+finish loading: 120000 data size: 352748
+long inputs: 635
+../../data/finetune_training.jsonl total size: 380069
+finish loading: 10000 data size: 29138
+long inputs: 55
+../../data/finetune_validation.jsonl total size: 42118
+finish data pre-processing
+시간: 2024-09-27 16:05:13.042752
+time: 1727420713.042752
+
+epoch: 1, step: 0/380069, loss: 7.7893, lr: 1e-05, oom: 0, time: 2043s
+start validation
+시간: 2024-09-27 16:39:17.114591
+time: 1727422757.114591
+validation loss: 2.1626
+
+epoch: 1, step: 1000/380069, loss: 0.2112, lr: 1e-05, oom: 0, time: 37383s
+start validation
+시간: 2024-09-28 03:02:20.890862
+time: 1727460140.890862
+validation loss: 0.1398
+
+epoch: 1, step: 2000/380069, loss: 0.1655, lr: 1e-05, oom: 0, time: 12510s
+start validation
+시간: 2024-09-28 06:30:51.881853
+time: 1727472651.881853
+validation loss: 0.125
+
+epoch: 1, step: 3000/380069, loss: 0.1538, lr: 1e-05, oom: 0, time: 3613s
+start validation
+시간: 2024-09-28 07:31:05.778715
+time: 1727476265.778715
+validation loss: 0.1096
+
+epoch: 1, step: 4000/380069, loss: 0.1451, lr: 1e-05, oom: 0, time: 3614s
+start validation
+시간: 2024-09-28 08:31:20.147579
+time: 1727479880.147579
+validation loss: 0.118
+
+epoch: 1, step: 5000/380069, loss: 0.1401, lr: 1e-05, oom: 0, time: 3473s
+start validation
+시간: 2024-09-28 09:29:14.100284
+time: 1727483354.100284
+validation loss: 0.1108
+
+epoch: 1, step: 6000/380069, loss: 0.1369, lr: 1e-05, oom: 0, time: 9868s
+start validation
+시간: 2024-09-28 12:13:43.015304
+time: 1727493223.015304
+validation loss: 0.1071
+
+epoch: 1, step: 7000/380069, loss: 0.1329, lr: 1e-05, oom: 0, time: 3616s
+start validation
+시간: 2024-09-28 13:13:59.284541
+time: 1727496839.284541
+validation loss: 0.1055
+
+epoch: 1, step: 8000/380069, loss: 0.1295, lr: 1e-05, oom: 0, time: 3619s
+start validation
+시간: 2024-09-28 14:14:18.767534
+time: 1727500458.767534
+validation loss: 0.1365
+
+epoch: 1, step: 9000/380069, loss: 0.1268, lr: 1e-05, oom: 0, time: 3486s
+start validation
+시간: 2024-09-28 15:12:25.176681
+time: 1727503945.176681
+validation loss: 0.1116
+
+epoch: 1, step: 10000/380069, loss: 0.1248, lr: 1e-05, oom: 0, time: 3480s
+start validation
+시간: 2024-09-28 16:10:25.266386
+time: 1727507425.266386
+validation loss: 0.1092
+
+epoch: 1, step: 11000/380069, loss: 0.1239, lr: 1e-05, oom: 0, time: 3481s
+start validation
+시간: 2024-09-28 17:08:27.157552
+time: 1727510907.157552
+validation loss: 0.1111
+
+epoch: 1, step: 12000/380069, loss: 0.123, lr: 1e-05, oom: 0, time: 3481s
+start validation
+시간: 2024-09-28 18:06:28.437793
+time: 1727514388.437793
+validation loss: 0.1102
+
+start validation
+시간: 2024-09-28 18:58:13.428065
+time: 1727517493.428065
+validation loss: 0.1102
