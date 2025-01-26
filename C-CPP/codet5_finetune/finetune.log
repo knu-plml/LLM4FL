@@ -1,0 +1,150 @@
+model parameters: 60492288
+save dir: ../../models/CandCP-finetuned-model/codet5-small-finetune/0/
+
+start data pre-processing
+시간: 2024-09-29 09:51:29.520231
+time: 1727571089.520231
+long inputs: 13728
+../../data/CVEfixesCandCP.jsonl total size: 35167
+finish data pre-processing
+시간: 2024-09-29 09:51:53.927589
+time: 1727571113.927589
+
+epoch: 1, step: 0/704, loss: 7.9026, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:51:54.828067
+time: 1727571114.828067
+validation loss: 5.6782
+
+start validation
+시간: 2024-09-29 09:52:51.641309
+time: 1727571171.641309
+validation loss: 0.2736
+model parameters: 60492288
+save dir: ../../models/CandCP-finetuned-model/codet5-small-finetune/1/
+
+start data pre-processing
+시간: 2024-09-29 09:52:58.473493
+time: 1727571178.473493
+long inputs: 13728
+../../data/CVEfixesCandCP.jsonl total size: 35167
+finish data pre-processing
+시간: 2024-09-29 09:53:22.774546
+time: 1727571202.774546
+
+epoch: 1, step: 0/704, loss: 7.3019, lr: 1e-05, oom: 0, time: 1s
+start validation
+시간: 2024-09-29 09:53:23.949300
+time: 1727571203.9493
+validation loss: 6.5129
+
+start validation
+시간: 2024-09-29 09:54:21.257001
+time: 1727571261.257001
+validation loss: 0.0855
+model parameters: 60492288
+save dir: ../../models/CandCP-finetuned-model/codet5-small-finetune/2/
+
+start data pre-processing
+시간: 2024-09-29 09:54:28.265266
+time: 1727571268.265266
+long inputs: 13728
+../../data/CVEfixesCandCP.jsonl total size: 35167
+finish data pre-processing
+시간: 2024-09-29 09:54:52.765998
+time: 1727571292.765998
+
+epoch: 1, step: 0/704, loss: 7.4938, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:54:53.713676
+time: 1727571293.713676
+validation loss: 6.2657
+
+start validation
+시간: 2024-09-29 09:55:49.580590
+time: 1727571349.58059
+validation loss: 0.1026
+model parameters: 60492288
+save dir: ../../models/CandCP-finetuned-model/codet5-small-finetune/3/
+
+start data pre-processing
+시간: 2024-09-29 09:55:59.306514
+time: 1727571359.306514
+long inputs: 13728
+../../data/CVEfixesCandCP.jsonl total size: 35167
+finish data pre-processing
+시간: 2024-09-29 09:56:23.729791
+time: 1727571383.729791
+
+epoch: 1, step: 0/704, loss: 7.1271, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:56:24.515878
+time: 1727571384.515878
+validation loss: 6.5393
+
+start validation
+시간: 2024-09-29 09:57:18.208631
+time: 1727571438.208631
+validation loss: 0.0491
+model parameters: 60492288
+save dir: ../../models/CandCP-finetuned-model/codet5-small-finetune/4/
+
+start data pre-processing
+시간: 2024-09-29 09:57:25.403149
+time: 1727571445.403149
+long inputs: 13728
+../../data/CVEfixesCandCP.jsonl total size: 35167
+finish data pre-processing
+시간: 2024-09-29 09:57:49.858728
+time: 1727571469.858728
+
+epoch: 1, step: 0/704, loss: 8.3016, lr: 1e-05, oom: 0, time: 0s
+start validation
+시간: 2024-09-29 09:57:50.641345
+time: 1727571470.641345
+validation loss: 6.1925
+
+start validation
+시간: 2024-09-29 09:58:45.861920
+time: 1727571525.86192
+validation loss: 0.2248
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
+Traceback (most recent call last):
+  File "/Data/shji/FL_LLMCs/CandCP/codet5_finetune/finetune.py", line 158, in <module>
+    training_file, epochs=1, batch_size=batch_size, save_dir='../../models/CandCP-finetuned-model/'+model_name+'-finetune/' + iterN + '/', parallel=False, load_range=None
+NameError: name 'batch_size' is not defined
