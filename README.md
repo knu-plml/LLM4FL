@@ -28,7 +28,7 @@ The directories are structured as follows:
 
 ##### RQ 3.<br/>
 - Python 
-- CandCP
+- C-CPP
 
 ##### RQ 4.<br/>
 (1) w/o both<br/>
